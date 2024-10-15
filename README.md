@@ -5,7 +5,7 @@ A suite of 32 NEW enchantments for Minecraft (1.21.1)! Return later for a thorou
 
 ### v1.0.0. October 14th, 2024
 + Repository created (happy birthday!)
-+ The following enchantments have been added
++ The following 32 enchantments have been added:
     + Audibility
     + Brutality
     + Butchery

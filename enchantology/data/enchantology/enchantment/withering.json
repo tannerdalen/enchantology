@@ -1,0 +1,39 @@
+{
+    "description": "Withering",
+    "supported_items": "#minecraft:enchantable/weapon",
+    "exclusive_set": "#enchantology:exclusive_set/damage_over_time",
+    "slots": ["mainhand"],
+    "weight": 10,
+    "anvil_cost": 0,
+    "min_cost": {
+        "base": 6,
+        "per_level_above_first": 2
+    },
+    "max_cost": {
+        "base": 30,
+        "per_level_above_first": 5
+    },
+    "max_level": 2,
+    "effects":{
+        "minecraft:post_attack":[{
+            "enchanted": "attacker",
+            "affected": "victim",
+            "effect": {
+                "type": "minecraft:apply_mob_effect",
+                "to_apply": "minecraft:wither",
+                "min_duration": 3.0,
+                "max_duration": 3.0,
+                "min_amplifier": {
+                    "type": "minecraft:linear",
+                    "base": 1.0,
+                    "per_level_above_first": 1.0
+                },
+                "max_amplifier": {
+                    "type": "minecraft:linear",
+                    "base": 1.0,
+                    "per_level_above_first": 1.0
+                }
+            }
+        }]
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "description": "Curse of Uncertainty",
+    "supported_items": ["minecraft:leather_helmet",
+                        "minecraft:iron_helmet",
+                        "minecraft:chainmail_helmet",
+                        "minecraft:golden_helmet",
+                        "minecraft:diamond_helmet",
+                        "minecraft:netherite_helmet",
+                        "minecraft:turtle_helmet",
+                        "minecraft:leather_chestplate",
+                        "minecraft:iron_chestplate",
+                        "minecraft:chainmail_chestplate",
+                        "minecraft:golden_chestplate",
+                        "minecraft:diamond_chestplate",
+                        "minecraft:netherite_chestplate",
+                        "minecraft:leather_leggings",
+                        "minecraft:iron_leggings",
+                        "minecraft:chainmail_leggings",
+                        "minecraft:golden_leggings",
+                        "minecraft:diamond_leggings",
+                        "minecraft:netherite_leggings",
+                        "minecraft:leather_boots",
+                        "minecraft:iron_boots",
+                        "minecraft:chainmail_boots",
+                        "minecraft:golden_boots",
+                        "minecraft:diamond_boots",
+                        "minecraft:netherite_boots"],
+    "slots": ["armor"],
+    "weight": 10,
+    "anvil_cost": 0,
+    "min_cost": {
+        "base": 6,
+        "per_level_above_first": 2
+    },
+    "max_cost": {
+        "base": 30,
+        "per_level_above_first": 5
+    },
+    "max_level": 1,
+    "effects":{
+        "minecraft:tick":[
+        {
+            "effect": {
+                "type": "minecraft:all_of",
+                "effects": [
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle":{
+                        "type": "minecraft:portal"
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                },
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle":{
+                        "type": "minecraft:portal"
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                },
+                {
+                    "type": "minecraft:run_function",
+                    "function": "enchantology:uncertainty_teleport"
+                },
+                {
+                    "type": "minecraft:play_sound",
+                    "sound": "entity.enderman.teleport",
+                    "volume":1,
+                    "pitch":1
+                }
+                ]
+            },
+            "requirements":{
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+        }
+        ]
+    }
+}

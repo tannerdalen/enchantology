@@ -1,0 +1,30 @@
+{
+    "description": "Audibility",
+    "supported_items": "#minecraft:head_armor",
+    "exclusive_set": "#enchantology:exclusive_set/helmet",
+    "slots": ["head"],
+    "weight": 10,
+    "anvil_cost": 0,
+    "min_cost": {
+        "base": 6,
+        "per_level_above_first": 2
+    },
+    "max_cost": {
+        "base": 30,
+        "per_level_above_first": 5
+    },
+    "max_level": 1,
+    "effects":{
+        "minecraft:tick":[{
+            "effect":{
+                "type": "minecraft:run_function",
+                "function": "enchantology:set_glowing_in_radius"
+            },
+            "requirements":{
+                "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {"flags": {"is_sneaking": true}}
+            }
+        }]
+    }
+}

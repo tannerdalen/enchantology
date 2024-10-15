@@ -1,0 +1,1 @@
+execute as @a at @s if block ~ ~ ~ #ladder_or_vine run effect give @s minecraft:levitation 1 1 true

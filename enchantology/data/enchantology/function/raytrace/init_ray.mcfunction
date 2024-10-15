@@ -1,0 +1,1 @@
+execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function enchantology:raytrace/start_ray

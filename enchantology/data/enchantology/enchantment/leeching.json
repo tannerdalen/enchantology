@@ -1,0 +1,51 @@
+{
+  "description": "Leeching",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "exclusive_set": "#enchantology:exclusive_set/damage_over_time",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:regeneration",
+          "min_duration": 1,
+          "max_duration": 1,
+          "min_amplifier": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          },
+          "max_amplifier": 2
+        }
+      }
+    ]
+  }
+}

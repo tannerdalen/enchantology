@@ -1,0 +1,32 @@
+{
+  "description": "Shattering",
+  "supported_items": "#minecraft:axes",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.2,
+            "per_level_above_first": -0.2
+          }
+        }
+      }
+    ]
+  }
+}

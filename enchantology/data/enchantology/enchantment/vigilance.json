@@ -1,0 +1,55 @@
+{
+  "description": "Vigilance",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "exclusive_set": "#enchantology:exclusive_set/damage",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": ["hand"],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "minecraft:player_attack",
+              "min_damage": {
+                "type": "minecraft:linear",
+                "base": 2.5,
+                "per_level_above_first": 2.5
+              },
+              "max_damage": 12.5
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": [
+              "minecraft:evoker",
+              "minecraft:illusioner",
+              "minecraft:pillager",
+              "minecraft:vindicator",
+              "minecraft:ravager",
+              "minecraft:vex",
+              "minecraft:witch"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

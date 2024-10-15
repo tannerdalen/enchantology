@@ -1,22 +1,16 @@
 {
     "description": "Curse of Fatigue",
-    "supported_items": ["minecraft:leather_helmet",
-                        "minecraft:iron_helmet",
-                        "minecraft:chainmail_helmet",
-                        "minecraft:golden_helmet",
-                        "minecraft:diamond_helmet",
-                        "minecraft:netherite_helmet",
-                        "minecraft:turtle_helmet"],
+    "supported_items": "#minecraft:enchantable/head_armor",
     "slots": ["head"],
     "weight": 10,
-    "anvil_cost": 0,
+    "anvil_cost": 8,
     "min_cost": {
-        "base": 6,
-        "per_level_above_first": 2
+        "base": 25,
+        "per_level_above_first": 0
     },
     "max_cost": {
-        "base": 30,
-        "per_level_above_first": 5
+        "base": 50,
+        "per_level_above_first": 0
     },
     "max_level": 1,
     "effects":{

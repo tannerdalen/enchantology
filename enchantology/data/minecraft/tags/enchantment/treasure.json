@@ -3,10 +3,13 @@
         "enchantology:audibility",
         "enchantology:dexterity",
         "enchantology:emolation",
+        "enchantology:escalation",
         "enchantology:explosive",
         "enchantology:gnashing",
         "enchantology:leeching",
         "enchantology:shattering",
+        "enchantology:subjugation",
+        "enchantology:vitality",
         "enchantology:withering"
     ]
 }

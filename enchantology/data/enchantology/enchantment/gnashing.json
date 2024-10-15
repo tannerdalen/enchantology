@@ -1,17 +1,17 @@
 {
   "description": "Gnashing",
   "supported_items": "minecraft:wolf_armor",
-  "weight": 1,
+  "weight": 10,
   "max_level": 5,
   "min_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 1,
+    "per_level_above_first": 11
   },
   "max_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 21,
+    "per_level_above_first": 11
   },
-  "anvil_cost": 0,
+  "anvil_cost": 1,
   "slots": [
     "armor"
   ],

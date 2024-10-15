@@ -2,17 +2,17 @@
   "description": "Reaching",
   "exclusive_set": "#enchantology:exclusive_set/aoe_melee",
   "supported_items": "#minecraft:enchantable/sharp_weapon",
-  "weight": 1,
+  "weight": 2,
   "max_level": 3,
   "min_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 5,
+    "per_level_above_first": 9
   },
   "max_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 20,
+    "per_level_above_first": 9
   },
-  "anvil_cost": 0,
+  "anvil_cost": 4,
   "slots": [
     "mainhand"
   ],

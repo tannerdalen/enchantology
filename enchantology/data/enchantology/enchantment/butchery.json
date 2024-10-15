@@ -3,15 +3,15 @@
     "supported_items": ["minecraft:shears"],
     "exclusive_set": [],
     "slots": ["mainhand"],
-    "weight": 10,
+    "weight": 2,
     "anvil_cost": 0,
     "min_cost": {
         "base": 6,
-        "per_level_above_first": 2
+        "per_level_above_first": 9
     },
     "max_cost": {
         "base": 30,
-        "per_level_above_first": 5
+        "per_level_above_first": 9
     },
     "max_level": 3,
     "effects":{
@@ -24,7 +24,7 @@
                 "effects": [
                 {
                     "type": "minecraft:run_function",
-                    "function": "enchantology:shear_entity" 
+                    "function": "enchantology:butchery/shear_entity" 
                 },
                 {
                     "type": "minecraft:play_sound",

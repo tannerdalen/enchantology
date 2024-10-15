@@ -3,15 +3,15 @@
     "supported_items": "#minecraft:enchantable/weapon",
     "exclusive_set": "#enchantology:exclusive_set/damage_over_time",
     "slots": ["mainhand"],
-    "weight": 10,
-    "anvil_cost": 0,
+    "weight": 2,
+    "anvil_cost": 4,
     "min_cost": {
-        "base": 6,
-        "per_level_above_first": 2
+        "base": 10,
+        "per_level_above_first": 20
     },
     "max_cost": {
-        "base": 30,
-        "per_level_above_first": 5
+        "base": 60,
+        "per_level_above_first": 20
     },
     "max_level": 2,
     "effects":{

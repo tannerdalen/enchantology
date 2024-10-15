@@ -9,14 +9,14 @@
                         "minecraft:netherite_axe"],
     "exclusive_set": "#enchantology:exclusive_set/damage_over_time",
     "slots": ["mainhand"],
-    "weight": 10,
-    "anvil_cost": 0,
+    "weight": 2,
+    "anvil_cost": 4,
     "min_cost": {
-        "base": 6,
+        "base": 10,
         "per_level_above_first": 2
     },
     "max_cost": {
-        "base": 30,
+        "base": 60,
         "per_level_above_first": 5
     },
     "max_level": 1,

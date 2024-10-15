@@ -2,16 +2,17 @@
     "description": "Audibility",
     "supported_items": "#minecraft:head_armor",
     "exclusive_set": "#enchantology:exclusive_set/helmet",
+    "primary_items": "#minecraft:enchantable/head_armor",
     "slots": ["head"],
-    "weight": 10,
-    "anvil_cost": 0,
+    "weight": 2,
+    "anvil_cost": 4,
     "min_cost": {
-        "base": 6,
-        "per_level_above_first": 2
+        "base": 1,
+        "per_level_above_first": 0
     },
     "max_cost": {
-        "base": 30,
-        "per_level_above_first": 5
+        "base": 41,
+        "per_level_above_first": 0
     },
     "max_level": 1,
     "effects":{

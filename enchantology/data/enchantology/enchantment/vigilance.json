@@ -1,19 +1,20 @@
 {
   "description": "Vigilance",
-  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/sword",
   "exclusive_set": "#enchantology:exclusive_set/damage",
-  "weight": 1,
+  "weight": 5,
   "max_level": 5,
   "min_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 5,
+    "per_level_above_first": 8
   },
   "max_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 25,
+    "per_level_above_first": 8
   },
-  "anvil_cost": 0,
-  "slots": ["hand"],
+  "anvil_cost": 2,
+  "slots": ["mainhand"],
   "effects": {
     "minecraft:post_attack": [
       {

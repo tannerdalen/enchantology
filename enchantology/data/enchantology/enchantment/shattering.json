@@ -1,17 +1,17 @@
 {
   "description": "Shattering",
   "supported_items": "#minecraft:axes",
-  "weight": 1,
+  "weight": 5,
   "max_level": 3,
   "min_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 5,
+    "per_level_above_first": 20
   },
   "max_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 55,
+    "per_level_above_first": 20
   },
-  "anvil_cost": 0,
+  "anvil_cost": 2,
   "slots": [
     "mainhand"
   ],

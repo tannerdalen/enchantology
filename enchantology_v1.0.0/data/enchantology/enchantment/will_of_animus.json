@@ -1,0 +1,172 @@
+{
+    "description": "Will of Animus",
+    "supported_items": ["minecraft:arms_up_pottery_sherd"],
+    "exclusive_set": [],
+    "slots": ["mainhand"],
+    "weight": 10,
+    "anvil_cost": 0,
+    "min_cost": {
+        "base": 6,
+        "per_level_above_first": 2
+    },
+    "max_cost": {
+        "base": 30,
+        "per_level_above_first": 5
+    },
+    "max_level": 1,
+    "effects":{
+        "minecraft:post_attack":[
+        {
+            "enchanted": "attacker",
+            "affected": "victim",
+            "effect": {
+                "type": "minecraft:all_of",
+                "effects": [
+                {
+                    "type": "minecraft:run_function",
+                    "function": "enchantology:will_of_animus/toggle_ai" 
+                },
+                {
+                    "type": "minecraft:play_sound",
+                    "sound": "entity.wither.spawn",
+                    "volume": 1,
+                    "pitch": 2
+                },
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:dust",
+                        "color": [1, 1, 1],
+                        "scale": 2.5
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                },
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:dust",
+                        "color": [1, 1, 1],
+                        "scale": 2
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                },
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:dust",
+                        "color": [1, 1, 1],
+                        "scale": 2
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                },
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:dust",
+                        "color": [1, 0.5, 1],
+                        "scale": 1.5
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                },
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:dust",
+                        "color": [1, 0.5, 1],
+                        "scale": 1.5
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                },
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:dust",
+                        "color": [1, 0.5, 1],
+                        "scale": 1.5
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                }
+                ]
+            }
+        }
+        ]
+    }
+}

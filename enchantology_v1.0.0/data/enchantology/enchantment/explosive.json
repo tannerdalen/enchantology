@@ -1,0 +1,62 @@
+{
+  "description": "Explosive",
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "damage_type": "minecraft:explosion",
+          "radius": 1.5,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:explosion_emitter"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion"
+          },
+          "sound": "entity.generic.explode",
+          "knockback_multiplier": 2,
+          "attribute_to_user": true,
+          "create_fire": false
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:explode",
+          "damage_type": "minecraft:explosion",
+          "radius": 1.5,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:explosion_emitter"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion"
+          },
+          "sound": "entity.generic.explode",
+          "knockback_multiplier": 2,
+          "attribute_to_user": true,
+          "create_fire": false
+        }
+      }
+    ]
+  }
+}

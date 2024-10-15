@@ -1,0 +1,62 @@
+{
+    "description": "Brutality",
+    "supported_items": ["minecraft:shears",
+                        "minecraft:wooden_axe",
+                        "minecraft:stone_axe",
+                        "minecraft:iron_axe",
+                        "minecraft:golden_axe",
+                        "minecraft:diamond_axe",
+                        "minecraft:netherite_axe"],
+    "exclusive_set": "#enchantology:exclusive_set/damage_over_time",
+    "slots": ["mainhand"],
+    "weight": 10,
+    "anvil_cost": 0,
+    "min_cost": {
+        "base": 6,
+        "per_level_above_first": 2
+    },
+    "max_cost": {
+        "base": 30,
+        "per_level_above_first": 5
+    },
+    "max_level": 1,
+    "effects":{
+        "minecraft:post_attack":[
+        {
+            "enchanted": "attacker",
+            "affected": "victim",
+            "effect": {
+                "type": "minecraft:all_of",
+                "effects": [
+                {
+                    "type": "minecraft:run_function",
+                    "function": "enchantology:brutality/bleed_set_duration"
+                },
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:dust",
+                        "color": [1, 0, 0],
+                        "scale": 2.5
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                }
+                ]
+            }
+        }
+        ]
+    }
+}

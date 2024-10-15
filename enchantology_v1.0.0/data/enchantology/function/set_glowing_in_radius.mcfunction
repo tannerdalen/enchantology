@@ -1,1 +1,0 @@
-execute as @p at @s run effect give @e[distance=..14] minecraft:glowing 1 1 true

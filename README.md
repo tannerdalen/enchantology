@@ -1,5 +1,5 @@
 # enchantology (v1.0.0)
-A suite of 32 NEW enchantments for Minecraft (1.21.1)! Return later for a thorough explanation and demonstration of each enchantment.
+A suite of 32 NEW enchantments for Minecraft (1.21.1)! Documentation of each enchantment will be covered in detail soon.
 
 ## Release Notes
 

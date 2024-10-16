@@ -11,6 +11,8 @@ A datapack with 32 new enchantments spread across the world! Each enchantment ca
 + enchantments.md added.
 + "Curse of Contraction" now reduces entity attributes by 12.5% per armor piece instead of a flat 50%.
 + "Subjugation" no longer available in enchanting table, only available in Pillager Outposts and Woodland Mansions
++ Added usage examples to readme.md.
+   + Note: explosion particles retextured by the [Fire Rekindled](https://www.curseforge.com/minecraft/texture-packs/fire-rekindled) resource pack.
 
 ### v1.0.0. October 14th, 2024
 + Repository created (happy birthday!)

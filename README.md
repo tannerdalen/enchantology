@@ -126,7 +126,7 @@ A Minecraft datapack (1.21.1) suite of 32 new enchantments spread across the wor
        + Obtained: Table & random loot
        + Apply to: Sharp weapon
     + **Vitality**
-       + Your strike replenishes life to your victim's bones. Substantial increase (greater than Smite) to damage dealth to exclusively the Wither and Wither Skeletons.
+       + Your strike replenishes life to your victim's bones. Substantial increase (greater than Smite) to damage dealt exclusively to Wither and Wither Skeletons.
        + Obtained: Bastion Treasure Chest
        + Apply to: Sharp Weapon
     + **Will of Animus**

@@ -66,7 +66,7 @@ A Minecraft datapack (1.21.1) suite of 32 new enchantments spread across the wor
        + Obtained: Random loot
        + Apply to: Tools
     + **Divinity**
-       + Increased damage to ender nether mobs.
+       + Increased damage to nether mobs.
        + Obtained: Table & random loot
        + Apply to: Sharp weapons
     + **Emolation**

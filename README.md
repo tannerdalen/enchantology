@@ -19,7 +19,7 @@ A Minecraft datapack (1.21.1) suite of 32 new enchantments spread across the wor
           + Level I: You tear mutton from sheep, raw pork from pigs, and raw beef from cows.
           + Level II: You rip flesh from zombies and bone meal from skeletons.
           + Level III: You carve iron from iron golems and ender pearls from enderman.
-      + Obtained: Random loot.
+      + Obtained: Table & random loot.
       + Apply to: Shears
     + **Certainty**
        + Increased damage to ender mobs.
@@ -61,22 +61,79 @@ A Minecraft datapack (1.21.1) suite of 32 new enchantments spread across the wor
        + You are not confidently tethered to the earth. Periocally teleport nearby.
        + Obtained: Random loot.
        + Apply to: Armor
-    + Dexterity
-    + Divinity
-    + Emolation
-    + Escalation
-    + Explosive
-    + Gnashing
-    + Gravity
-    + Harvesting
-    + Ironclad
-    + Lacerating
-    + Leeching
-    + Oppression
-    + Reaching
-    + Shattering
-    + Subjugation
-    + Vigilance
-    + Vitality
-    + Will of Animus
-    + Withering
+    + **Dexterity**
+       + You are quick with it. Increased swing speed for enchanted tools.
+       + Obtained: Random loot
+       + Apply to: Tools
+    + **Divinity**
+       + Increased damage to ender nether mobs.
+       + Obtained: Table & random loot
+       + Apply to: Sharp weapons
+    + **Emolation**
+       + Can directly ignite players/entities.
+       + Obtained: Ruined portal
+       + Apply to: Flint & Steel
+    + **Escalation**
+       + Increased number of vertical blocks that can be stepped over without jumping.
+       + Obtained: Jungle temple
+       + Apply to: Leggings
+    + **Explosive**
+       + Crossbow arrows explode on contact.
+       + Obtained: Pillager Outpost
+       + Apply to: Crossbow
+    + **Gnashing**
+       + Wolf attacks do increased damage
+       + Obtained: Trail ruins
+       + Apply to: Wolf Armor
+    + **Gravity**
+       + Arrows are weighted and send your airborne victim plummeting.
+       + Obtained: Table & random loot
+       + Apply to: Bow, Crossbow
+    + **Harvesting**
+       + Increased number of adjacent crops are broken around the origin
+       + Obtained: Table & random loot
+       + Apply to: Hoe
+    + **Ironclad**
+       + You are made of sterner stuff. You take reduced knockback.
+       + Obtained: Table & random loot
+       + Apply to: Chestplate
+    + **Lacerating**
+       + Increased damage for shears.
+       + Obtained: Random loot
+       + Apply to: Shears
+    + **Leeching**
+       + Siphons the life from your victim.
+       + Obtained: Woodland Mansion
+       + Apply to: Sharp tools
+    + **Oppression**
+       + Inflict slowness on your victim.
+       + Obtained: Table & random loot
+       + Apply to: Mace
+    + **Reaching**
+       + Increased entity interaction range.
+       + Obtained: Table & random loot
+       + Apply to: Sharp weapons
+    + **Shattering**
+       + Reduce armor effectiveness of your victim.
+       + Obtained: Random loot
+       + Apply to: Axes
+    + **Subjugation**
+       + You are cruel. Increased damage to villagers, golems, and sniffers.
+       + Obtained: Random loot, Pillager Outpost, Woodland Mansion
+       + Apply to: Sharp weapons
+    + **Vigilance**
+       + You are just. Increased damage to illagers, evokers, illusioners, evokers, etc.
+       + Obtained: Table & random loot
+       + Apply to: Sharp weapon
+    + **Vitality**
+       + Your strike replenishes life to your victim's bones. Substantial increase (greater than Smite) to damage dealth to exclusively the Wither and Wither Skeletons.
+       + Obtained: Bastion Treasure Chest
+       + Apply to: Sharp Weapon
+    + **Will of Animus**
+       + Overwhelm your victim with deafening power. Striking entites with this enchantment disables their AI!
+       + Obtained: Commands only.
+       + Apply to: Arms Up Pottery Shard
+    + **Withering**
+       + Inflict the wither debuff on your victims.
+       + Obtained: Nether Fortress
+       + Apply to: Sharp weapons

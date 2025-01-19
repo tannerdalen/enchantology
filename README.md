@@ -12,6 +12,7 @@ A datapack with 32 new enchantments spread across the world! Each enchantment ca
 + Enchantology updated to 1.21.4.
 + "Audilibity" weight in ancient city chests decreased from 3 to 2.
 + "Vitality" weight in bastion treasure chests decreased from 3 to 2.
++ "Vitality" removed from the enchanting table.
 + "Emolation", which was mispelled, properly renamed to "Immolation".
 + Jump height reduction from "Curse of Contraction" changed from -12.5% to -10% per armor piece.
 + Tags added for entities affected by "Curse of Revile" and items enchantable with "Dexterity". 

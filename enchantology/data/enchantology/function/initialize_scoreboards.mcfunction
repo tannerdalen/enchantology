@@ -9,4 +9,3 @@ scoreboard objectives add impendingDoomCurse dummy
 scoreboard objectives add ray_steps dummy
 scoreboard objectives add ray_success dummy
 scoreboard objectives add hasNoAI dummy
-scoreboard objectives add modulo2 dummy

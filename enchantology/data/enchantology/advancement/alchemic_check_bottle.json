@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "picked_up_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass_bottle",
+            "count": 1
+          }
+        ],
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "enchantology:alchemic_drank_potion": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "enchantology:alchemic/alchemic_replace_potion"
+  }
+}

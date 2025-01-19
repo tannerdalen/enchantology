@@ -63,10 +63,6 @@
    + Increased damage to nether mobs.
    + Obtained: Table & random loot
    + Apply to: Sharp weapons
-## **Emolation**
-   + Can directly ignite players/entities.
-   + Obtained: Ruined portal
-   + Apply to: Flint & Steel
 ## **Escalation**
    + Increased number of vertical blocks that can be stepped over without jumping.
    + Obtained: Jungle temple
@@ -87,6 +83,10 @@
    + Increased number of adjacent crops are broken around the origin
    + Obtained: Table & random loot
    + Apply to: Hoe
+## **Immolation**
+   + Can directly ignite players/entities.
+   + Obtained: Ruined portal
+   + Apply to: Flint & Steel
 ## **Ironclad**
    + You are made of sterner stuff. You take reduced knockback.
    + Obtained: Table & random loot

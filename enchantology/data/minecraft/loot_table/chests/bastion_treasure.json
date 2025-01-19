@@ -339,7 +339,8 @@
                 "options": "enchantology:vitality"
               }
             ],
-            "name": "minecraft:book"
+            "name": "minecraft:book",
+            "weight": 2
           },
         {
           "type": "minecraft:item",

@@ -154,7 +154,7 @@
             "functions": [
               {
                 "function": "minecraft:enchant_randomly",
-                "options": "enchantology:emolation"
+                "options": "enchantology:immolation"
               }
             ],
             "name": "minecraft:book",

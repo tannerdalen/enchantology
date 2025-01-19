@@ -33,7 +33,7 @@
     "minecraft:attributes": [
       {
         "id": "minecraft:generic.attack_speed",
-        "attribute": "minecraft:generic.attack_speed",
+        "attribute": "minecraft:attack_speed",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.25,

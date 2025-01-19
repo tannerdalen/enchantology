@@ -25,6 +25,7 @@ execute as @e[scores={isReviled=1}] run data modify entity @s AngryAt set from e
 execute as @e[scores={isReviled=1}] run data modify entity @s AngerTime set value 20
 
 ### Remove anger and revile from mobs outside radius
+# First 'execute' below throws error in spyglassmc(1.21.4) but it works just fine in game
 execute as @e[distance=16..,scores={isReviled=1}] run data modify entity @s AngryAt set value []
 execute as @e[distance=16..,scores={isReviled=1}] run data modify entity @s AngerTime set value 0
 execute as @e[distance=16..,scores={isReviled=1}] run scoreboard players reset @s isReviled

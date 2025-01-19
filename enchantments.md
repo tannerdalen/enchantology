@@ -28,7 +28,7 @@
    + Obtained: Random loot.
    + Apply to: Armor
 ## **Curse of Contraction**
-   + You have been shrunk. Your size, speed, attack damage, jump height, and entity/block interaction range are reduced by 12.5% per armor piece with this curse equipped.
+   + You have been shrunk. Your size, speed, attack damage, jump height, and entity/block interaction range are reduced by 12.5% (10% for jump height) per armor piece with this curse equipped.
    + Obtained: Random loot.
    + Apply to: Armor
 ## **Curse of Fatigue**

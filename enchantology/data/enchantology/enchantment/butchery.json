@@ -33,7 +33,7 @@
                     "pitch": 1
                 },
                 {
-                    "type": "minecraft:damage_item",
+                    "type": "minecraft:change_item_damage",
                     "amount": 1
                 },
                 {

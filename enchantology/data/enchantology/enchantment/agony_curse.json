@@ -20,7 +20,7 @@
     "minecraft:attributes": [
       {
         "id": "minecraft:generic.max_health",
-        "attribute": "minecraft:generic.max_health",
+        "attribute": "minecraft:max_health",
         "amount": -2,
         "operation": "add_value"
       }

@@ -6,7 +6,6 @@
       "armor.*": {
         "components": {
           "minecraft:enchantments": {
-            "enchantology:impending_doom_curse": 0,
             "enchantology:agony_curse": 0
           }
         }

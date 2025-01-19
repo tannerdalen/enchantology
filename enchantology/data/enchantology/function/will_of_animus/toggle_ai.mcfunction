@@ -19,5 +19,5 @@
 
 execute store success entity @s hasNoAI byte 1 store success score @s hasNoAI unless score @s hasNoAI matches 1
 
-execute as @s[scores={hasNoAI=1}] run data modify entity @s NoAI set value 1
-execute as @s[scores={hasNoAI=0}] run data modify entity @s NoAI set value 0
+execute as @s[scores={hasNoAI=1}] run data modify entity @s NoAI set value true
+execute as @s[scores={hasNoAI=0}] run data modify entity @s NoAI set value false

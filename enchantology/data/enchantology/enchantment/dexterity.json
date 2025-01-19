@@ -1,20 +1,6 @@
 {
   "description": "Dexterity",
-  "supported_items": ["minecraft:wooden_sword",
-                        "minecraft:stone_sword",
-                        "minecraft:iron_sword",
-                        "minecraft:golden_sword",
-                        "minecraft:diamond_sword",
-                        "minecraft:netherite_sword",
-                        "minecraft:wooden_axe",
-                        "minecraft:stone_axe",
-                        "minecraft:iron_axe",
-                        "minecraft:golden_axe",
-                        "minecraft:diamond_axe",
-                        "minecraft:netherite_axe",
-                        "minecraft:mace",
-                        "minecraft:flint_and_steel",
-                        "minecraft:shears"],
+  "supported_items": "#enchantology:dexterity",
   "weight": 2,
   "max_level": 3,
   "min_cost": {
@@ -33,7 +19,7 @@
     "minecraft:attributes": [
       {
         "id": "minecraft:generic.attack_speed",
-        "attribute": "minecraft:generic.attack_speed",
+        "attribute": "minecraft:attack_speed",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.25,

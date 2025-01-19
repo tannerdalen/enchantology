@@ -1,5 +1,5 @@
 # enchantology (v1.1.0)
-A datapack with 32 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Current version: Minecraft 1.21.4.
+A datapack with 32 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Built for Minecraft 1.21.4.
 
 ![](explosive_demo.gif)
 ![](subjugation_in_chest_reduced.png)

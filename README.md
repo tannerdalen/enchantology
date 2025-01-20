@@ -1,11 +1,21 @@
-# enchantology (v1.0.1)
-A datapack with 32 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Built for Minecraft 1.21.1.
+# enchantology (v1.1.0)
+A datapack with 32 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Built for Minecraft 1.21.4.
 
 ![](explosive_demo.gif)
 ![](subjugation_in_chest_reduced.png)
 ![](audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.1.0. January 18th, 2025
+
++ Enchantology updated to 1.21.4.
++ "Audilibity" weight in ancient city chests decreased from 3 to 2.
++ "Vitality" weight in bastion treasure chests decreased from 3 to 2.
++ "Vitality" removed from the enchanting table.
++ "Emolation", which was mispelled, properly renamed to "Immolation".
++ Jump height reduction from "Curse of Contraction" changed from -12.5% to -10% per armor piece.
++ Tags added for entities affected by "Curse of Revile" and items enchantable with "Dexterity". 
 
 ### v1.0.1. October 15th, 2024
 + enchantments.md added.

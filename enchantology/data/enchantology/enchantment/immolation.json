@@ -1,7 +1,7 @@
 {
   "description": "Immolation",
   "supported_items": "minecraft:flint_and_steel",
-  "exclusive_set": "#enchantology:magic_fire",
+  "exclusive_set": "#enchantology:exclusive_set/magic_fire",
   "weight": 2,
   "max_level": 1,
   "min_cost": {

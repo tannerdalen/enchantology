@@ -1,6 +1,5 @@
 {
   "description": "Ironclad",
-  "exclusive_set": "#enchantology:exclusive_set/chest_armor",
   "supported_items": "#minecraft:enchantable/chest_armor",
   "weight": 1,
   "max_level": 3,

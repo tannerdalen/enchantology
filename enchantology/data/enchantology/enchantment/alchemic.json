@@ -1,7 +1,7 @@
 {
     "description": "Alchemic",
     "supported_items": "#minecraft:head_armor",
-    "exclusive_set": "#enchantology:exclusive_set/helmet",
+    "exclusive_set": "#enchantology:exclusive_set/education",
     "primary_items": "#minecraft:enchantable/head_armor",
     "slots": ["head"],
     "weight": 2,

@@ -1,5 +1,6 @@
 {
   "description": "Gravity",
+  "exclusive_set": "minecraft:punch",
   "supported_items": [
     "minecraft:bow",
     "minecraft:crossbow"

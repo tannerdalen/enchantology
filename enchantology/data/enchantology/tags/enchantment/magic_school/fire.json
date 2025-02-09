@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "enchantology:immolation",
+      "minecraft:fire_aspect",
+      "minecraft:fire_protection"
+    ]
+  }

@@ -1,5 +1,15 @@
 {
     "values": [
-        "#minecraft:in_enchanting_table"
+        "enchantology:brutality",
+        "enchantology:butchery",
+        "enchantology:certainty",
+        "enchantology:divinity",
+        "enchantology:gravity",
+        "enchantology:harvesting",
+        "enchantology:ironclad",
+        "enchantology:lacerating",
+        "enchantology:oppression",
+        "enchantology:reaching",
+        "enchantology:vigilance"
     ]
 }

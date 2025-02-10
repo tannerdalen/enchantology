@@ -2,6 +2,6 @@
     "values":[
         "enchantology:all_countdowns",
         "enchantology:brutality/bleed_inflict_damage",
-        "enchantology:revile_curse_unequip"
+        "enchantology:revile_curse/revile_curse_unequip"
     ]
 }

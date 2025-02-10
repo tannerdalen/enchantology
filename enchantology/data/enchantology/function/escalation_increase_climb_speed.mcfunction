@@ -1,1 +1,0 @@
-execute as @a at @s if block ~ ~ ~ #climbable run effect give @s minecraft:levitation 1 1 true

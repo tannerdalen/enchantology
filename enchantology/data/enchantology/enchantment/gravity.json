@@ -29,7 +29,7 @@
           "effects": [
             {
               "type": "minecraft:run_function",
-              "function": "enchantology:gravity_change_velocity"
+              "function": "enchantology:gravity/gravity_change_velocity"
             }
           ]
         }

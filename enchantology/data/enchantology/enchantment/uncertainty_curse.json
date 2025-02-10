@@ -61,7 +61,7 @@
                 },
                 {
                     "type": "minecraft:run_function",
-                    "function": "enchantology:uncertainty_teleport"
+                    "function": "enchantology:uncertainty_curse/uncertainty_teleport"
                 },
                 {
                     "type": "minecraft:play_sound",

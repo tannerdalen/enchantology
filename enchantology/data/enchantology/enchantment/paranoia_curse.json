@@ -21,7 +21,7 @@
                 "effects": [
                 {
                     "type": "minecraft:run_function",
-                    "function": "enchantology:paranoia_sounds"
+                    "function": "enchantology:paranoia_curse/paranoia_sounds"
                 }
                 ]
             }

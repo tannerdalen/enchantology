@@ -9,5 +9,5 @@ execute if data storage enchantology:item_replaced {was_item_replaced:1b} run pl
 # Reset item_replaced, remove item from the crafting slot, then remove the advancements
 data merge storage enchantology:item_replaced {was_item_replaced:0b}
 item modify entity @s player.crafting.0 {"function":"set_count",count:0}
-advancement revoke @s only enchantology:alchemic_drank_potion
-advancement revoke @s only enchantology:alchemic_check_bottle
+advancement revoke @s only enchantology:alchemic/alchemic_drank_potion
+advancement revoke @s only enchantology:alchemic/alchemic_check_bottle

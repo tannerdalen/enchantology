@@ -13,7 +13,7 @@
           "type_specific": {
             "type": "minecraft:player",
             "advancements": {
-              "enchantology:alchemic_drank_potion": true
+              "enchantology:alchemic/alchemic_check_bottle": true
             }
           }
         }

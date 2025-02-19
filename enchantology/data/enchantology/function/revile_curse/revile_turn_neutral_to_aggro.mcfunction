@@ -2,8 +2,6 @@
 ### To avoid this, the isReviled scoreboard is used to avoid removing anger from a mob
 ### that should be angry for other reasons.
 
-### All neutral mobs as of 1.21.1 are included here
-
 execute as @e[type=#enchantology:revile,distance=..16] run scoreboard players set @s isReviled 1
 
 ### Make mobs angry at nearest entity with revile curse

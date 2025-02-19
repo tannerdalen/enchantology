@@ -6,6 +6,3 @@ execute as @e[scores={bleedDuration=1..}] run scoreboard players remove @s bleed
 
 # shearActionsCooldown, Butchery
 execute as @e[scores={shearActionsCooldown=1..}] run scoreboard players remove @s shearActionsCooldown 1
-
-# impendingDoomCurse, Curse of Impending Doom
-execute as @e[scores={impendingDoomCurse=1..}] run scoreboard players remove @s impendingDoomCurse 1

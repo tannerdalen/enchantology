@@ -1,0 +1,79 @@
+{
+    "description": "Discordant",
+    "supported_items": "#minecraft:enchantable/bow",
+    "slots": ["mainhand"],
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 12,
+        "per_level_above_first": 20
+    },
+    "max_cost": {
+        "base": 37,
+        "per_level_above_first": 20
+    },
+    "anvil_cost": 4,
+    "effects":{
+        "minecraft:post_attack":[
+        {
+            "effect": {
+                "type": "minecraft:all_of",
+                "effects": [
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle":{
+                        "type": "minecraft:portal"
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                },
+                {
+                    "type": "minecraft:spawn_particles",
+                    "particle":{
+                        "type": "minecraft:portal"
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "scale": 2
+                    },
+                    "horizontal_velocity": {
+                        "base": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0
+                    }
+                },
+                {
+                    "type": "minecraft:run_function",
+                    "function": "enchantology:discordant/discordant_teleport"
+                },
+                {
+                    "type": "minecraft:play_sound",
+                    "sound": "entity.enderman.teleport",
+                    "volume":1,
+                    "pitch":1
+                }
+                ]
+            },
+            "enchanted":"attacker",
+            "affected": "victim"
+        }
+        ]
+    }
+}

@@ -41,20 +41,31 @@
         "enchanted": "attacker",
         "affected": "victim",
         "effect": {
-          "type": "minecraft:explode",
-          "damage_type": "minecraft:explosion",
-          "radius": 1.5,
-          "block_interaction": "none",
-          "small_particle": {
-            "type": "minecraft:explosion_emitter"
-          },
-          "large_particle": {
-            "type": "minecraft:explosion"
-          },
-          "sound": "entity.generic.explode",
-          "knockback_multiplier": 2,
-          "attribute_to_user": true,
-          "create_fire": false
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:explode",
+              "damage_type": "minecraft:explosion",
+              "radius": 1.5,
+              "block_interaction": "none",
+              "small_particle": {
+                "type": "minecraft:explosion_emitter"
+              },
+              "large_particle": {
+                "type": "minecraft:explosion"
+              },
+              "sound": "entity.generic.explode",
+              "knockback_multiplier": 2,
+              "attribute_to_user": true,
+              "create_fire": false
+            },
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "minecraft:explosion",
+              "min_damage": 2.5,
+              "max_damage": 2.5
+            }
+          ]
         }
       }
     ]

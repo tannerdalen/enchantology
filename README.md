@@ -1,11 +1,42 @@
 # enchantology (v1.1.0)
-A datapack with 32 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Built for Minecraft 1.21.4.
+A datapack with 37 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Built for Minecraft 1.21.4.
 
 ![](explosive_demo.gif)
 ![](subjugation_in_chest_reduced.png)
 ![](audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.2.0. February 23rd, 2025
+
++ 5 New Enchantments:
+    + **Alchemic** (Helmet)
+        + Potions have a 30% chance not to be consumed when drank.
+    + **Frost Trotter** (Horse Armor)
+        + Creates frosted ice blocks when walking over water, and grants damage immunity from certain blocks such as campfires and magma blocks when stepped on.
+    + **Quarrying** (Netherite Pickaxe)
+        + Insta-mine deepslate if paired with Efficiency V and Haste II.
+        + Found in abandoned mineshafts.
+    + **Curse of Impending Doom** (Armor)
+        + You are fated to die. Reduces maximum health by half a heart every three seconds. You will die in 60 seconds, unless the curse is removed.
+    + **Discordant** (Bow)
+        + Victims struck by arrows from this enchanted bow teleport randomly nearby.
++ Enchantment changes:
+    + "Explosive" now deals an extra 2.5 explosive damage upon a direct hit.
+    + "Ironclad" made re-compatible with Thorns.
+    + "Audibility" made re-compatible with Aqua Affinity.
+    + "Gravity" now imcompatible with Punch.
+    + "exclusive_set/education" added to make education/speciality enchantments mutually exclusive.
+        + Includes "Alchemic" and "Audibility" upon this release.
+    + Magic enchantments separated into "school" tags (e.g., enchantology:magic_school/magic_fire)
+        + Enchantments from the same school are compatible with each other, while different schools may be incompatible (e.g., magic_fire is compatible with magic_death enchantments, but incompatible with magic_ice enchantments)
+        + Not all enchantments belong to a school (e.g., Reaching, Harvesting, etc.)
++ Technical changes:
+    + Replaced individual predicate files for in-line predicate probabilities for "Butchery", "Curse of the Godfather", "Curse of Masochism", and "Paranoia"
+    + Replaced summoned minecraft:villager with minecraft:interaction in "Curse of the Godfather"
+    + Added "deepslate_variants" block tag
+    + "exclusive_set/damage_over_time" removed
+    + "exclusive_set/helmet" removed
 
 ### v1.1.0. January 18th, 2025
 

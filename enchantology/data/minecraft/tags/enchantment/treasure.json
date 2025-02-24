@@ -1,14 +1,18 @@
 {
     "values":[
+        "enchantology:alchemic",
         "enchantology:audibility",
         "enchantology:dexterity",
+        "enchantology:discordant",
         "enchantology:immolation",
         "enchantology:escalation",
         "enchantology:explosive",
+        "enchantology:frost_trotter",
         "enchantology:gnashing",
         "enchantology:leeching",
         "enchantology:shattering",
         "enchantology:subjugation",
+        "enchantology:quarrying",
         "enchantology:vitality",
         "enchantology:withering"
     ]

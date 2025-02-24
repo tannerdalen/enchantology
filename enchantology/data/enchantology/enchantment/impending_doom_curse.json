@@ -1,0 +1,26 @@
+{
+    "description": "Curse of Impending Doom",
+    "supported_items": "#minecraft:enchantable/armor",
+    "slots": ["armor"],
+    "weight": 10,
+    "anvil_cost": 8,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantology:impending_doom_curse/remove_health_over_time"
+        }
+      }
+    ]
+  }
+}

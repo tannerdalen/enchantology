@@ -21,7 +21,7 @@
                 "effects": [
                 {
                     "type": "minecraft:run_function",
-                    "function": "enchantology:godfather_curse"
+                    "function": "enchantology:godfather_curse/godfather_curse"
                 }
                 ]
             }

@@ -1,7 +1,7 @@
 {
     "description": "Withering",
     "supported_items": "#minecraft:enchantable/weapon",
-    "exclusive_set": "#enchantology:exclusive_set/damage_over_time",
+    "exclusive_set": "#enchantology:exclusive_set/magic_death",
     "slots": ["mainhand"],
     "weight": 2,
     "anvil_cost": 4,

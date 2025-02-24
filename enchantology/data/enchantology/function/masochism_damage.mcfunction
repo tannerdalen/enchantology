@@ -1,1 +1,0 @@
-execute as @s[predicate=enchantology:probability_01] run damage @s 0.01 minecraft:thrown by @s

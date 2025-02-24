@@ -21,7 +21,7 @@
                 "effects": [
                 {
                     "type": "minecraft:run_function",
-                    "function": "enchantology:masochism_damage"
+                    "function": "enchantology:masochism_curse/masochism_damage"
                 }
                 ]
             }

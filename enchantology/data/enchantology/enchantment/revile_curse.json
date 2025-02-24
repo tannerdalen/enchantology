@@ -21,7 +21,7 @@
                 "effects": [
                 {
                     "type": "minecraft:run_function",
-                    "function": "enchantology:revile_turn_neutral_to_aggro"
+                    "function": "enchantology:revile_curse/revile_turn_neutral_to_aggro"
                 }
                 ]
             }

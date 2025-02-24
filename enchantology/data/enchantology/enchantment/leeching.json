@@ -1,7 +1,7 @@
 {
   "description": "Leeching",
   "supported_items": "#minecraft:enchantable/sharp_weapon",
-  "exclusive_set": "#enchantology:exclusive_set/damage_over_time",
+  "exclusive_set": "#enchantology:exclusive_set/magic_life",
   "weight": 2,
   "max_level": 2,
   "min_cost": {

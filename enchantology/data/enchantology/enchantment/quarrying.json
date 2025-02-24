@@ -1,0 +1,26 @@
+{
+    "description": "Quarrying",
+    "supported_items": "minecraft:netherite_pickaxe",
+    "slots": ["mainhand"],
+    "weight": 10,
+    "anvil_cost": 8,
+    "max_cost": {
+    "base": 51,
+    "per_level_above_first": 10
+    },
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 10
+    },
+    "max_level": 1,
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantology:quarrying/apply_or_remove_modifier"
+                }
+            }
+        ]
+    }
+}

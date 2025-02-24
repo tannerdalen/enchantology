@@ -1,14 +1,5 @@
-{ "values":[
-    "enchantology:brutality",
-    "enchantology:butchery",
-    "enchantology:certainty",
-    "enchantology:divinity",
-    "enchantology:gravity",
-    "enchantology:harvesting",
-    "enchantology:ironclad",
-    "enchantology:lacerating",
-    "enchantology:oppression",
-    "enchantology:reaching",
-    "enchantology:vigilance"
+{ 
+    "values":[
+        "#minecraft:non_treasure"
 ]
 }

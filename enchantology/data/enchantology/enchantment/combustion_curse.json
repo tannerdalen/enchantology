@@ -24,7 +24,7 @@
                 "effects": [
                 {
                     "type": "minecraft:run_function",
-                    "function": "enchantology:combustion_ignite_in_radius"
+                    "function": "enchantology:combustion_curse/combustion_ignite_in_radius"
                 }
                 ]
             }

@@ -8,7 +8,7 @@ execute if entity @s[scores={shearActionsRemaining=0}] as @s run tellraw @p[nbt=
 execute if entity @s[scores={shearActionsRemaining=0}] as @s run tellraw @p[nbt={SelectedItem:{components:{"minecraft:enchantments":{levels:{"enchantology:butchery":3}}}, count: 1, id: "minecraft:shears"}}] {"text":"This cattle has already been carved. Let the flesh return...", "color":"gray", "italic":true}
 
 # Drop item if shear available, 25% of the time
-execute as @s unless entity @s[scores={shearActionsRemaining=0}] if entity @p[predicate=enchantology:probability_25] run summon item ~ ~1 ~ {Item:{id:"minecraft:beef",count:1}}
+execute as @s unless entity @s[scores={shearActionsRemaining=0}] if predicate {"condition": "minecraft:random_chance","chance": 0.25} as @p run summon item ~ ~1 ~ {Item:{id:"minecraft:beef",count:1}}
 
 # Subtract from shearActionsRemaining
 execute unless entity @s[scores={shearActionsRemaining=0}] as @s run scoreboard players remove @s shearActionsRemaining 1

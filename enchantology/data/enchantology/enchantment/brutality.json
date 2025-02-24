@@ -7,7 +7,6 @@
                         "minecraft:golden_axe",
                         "minecraft:diamond_axe",
                         "minecraft:netherite_axe"],
-    "exclusive_set": "#enchantology:exclusive_set/damage_over_time",
     "slots": ["mainhand"],
     "weight": 2,
     "anvil_cost": 4,

@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "enter_vehicle": {
+        "trigger": "minecraft:started_riding",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "armor.*": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "enchantology:godfather_curse"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "enchantology:godfather_curse/check_if_kill"
+    }
+  }

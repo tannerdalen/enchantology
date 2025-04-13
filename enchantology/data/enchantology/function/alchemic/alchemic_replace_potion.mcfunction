@@ -1,10 +1,13 @@
 # At this point, potion is assumed drank, potion type stored, and glass bottle now left in inventory.
 # RTD to consume or not consume the potion, store success if unconsumed
 data merge storage enchantology:item_replaced {was_item_replaced:0b}
-execute if predicate {"condition": "minecraft:random_chance","chance": 0.3} run execute store success storage enchantology:item_replaced was_item_replaced byte 1 run item replace entity @s[nbt={Inventory:[{Slot:103b, components:{"minecraft:enchantments":{levels:{"enchantology:alchemic":1}}}}]}] weapon.mainhand from entity @s player.crafting.0
+# execute if predicate {"condition": "minecraft:random_chance","chance": 0.3} run execute store success storage enchantology:item_replaced was_item_replaced byte 1 run item replace entity @s[nbt={Inventory:[{Slot:103b, components:{"minecraft:enchantments":{levels:{"enchantology:alchemic":1}}}}]}] weapon.mainhand from entity @s player.crafting.0
+execute if predicate {"condition": "minecraft:random_chance","chance": 0.3} run data modify storage enchantology:item_replaced was_item_replaced set value 1b
 
-# If successful...
+# If successful, play sound and replace empty bottle with potion
+execute if data storage enchantology:item_replaced {was_item_replaced:1b} run say yippee
 execute if data storage enchantology:item_replaced {was_item_replaced:1b} run playsound minecraft:block.brewing_stand.brew block @s ~ ~ ~ 2 2
+execute if data storage enchantology:item_replaced {was_item_replaced:1b} run item replace entity @s weapon.mainhand from entity @s player.crafting.0
 
 # Reset item_replaced, remove item from the crafting slot, then remove the advancements
 data merge storage enchantology:item_replaced {was_item_replaced:0b}

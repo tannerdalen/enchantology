@@ -5,7 +5,26 @@
         "conditions": {
           "item": {
             "items": "minecraft:potion"
-        }
+        },
+        "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "armor.*": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "enchantology:alchemic"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
         }
       }
     },

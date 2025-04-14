@@ -22,7 +22,7 @@ A datapack with 37 new enchantments spread across the world! Each enchantment ca
         + Fixed bug where all armor would break upon explosion.
         + Fixed bug where curse would activate without entering a vehicle.
     + Quarrying
-        + Fixed bug where item modifiers would apply to items with "Quarrying" enchantment.
+        + Fixed bug where item modifiers would apply to items without "Quarrying" enchantment.
         + No longer uses item modifiers.
     + Added "Frost Trotter" and "Alchemic" to tag "enchantment/on_random_loot".
 + Technical Changes:

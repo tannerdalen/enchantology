@@ -6,6 +6,7 @@ scoreboard objectives add shearActionsCooldown dummy
 scoreboard objectives add isReviled dummy
 scoreboard objectives add impendingDoomTimer dummy
 scoreboard objectives add impendingDoomHealthRemoved dummy
+scoreboard objectives add fix_quarrying_iterator dummy
 scoreboard objectives add ray_steps dummy
 scoreboard objectives add ray_success dummy
 scoreboard objectives add hasNoAI dummy

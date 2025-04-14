@@ -1,6 +1,6 @@
-# enchantology (v1.2.0)
+# enchantology (v1.2.1)
 
-A datapack with 37 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Built for Minecraft 1.21.4.
+A datapack with 37 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.5.
 
 
 ![](explosive_demo.gif)
@@ -8,6 +8,23 @@ A datapack with 37 new enchantments spread across the world! Each enchantment ca
 ![](audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.2.1. April 13th, 2025
+
++ Enchantology updated to Minecraft 1.21.5
++ Enchantment changes:
+    + Alchemic
+        + Fixed bug where opening container (e.g., chest) would remove empty bottle from mainhand.
+    + Curse of Fatigue
+        + Fixed incorrect armor compatibility.
+    + Curse of the Godfather
+        + No longer summons minecraft:interaction entity to attribute explosion to.
+        + Fixed bug where all armor would break upon explosion.
+        + Fixed bug where curse would activate without entering a vehicle.
+    + Quarrying
+        + Fixed bug where item modifiers would apply to items with "Quarrying" enchantment.
+        + No longer uses item modifiers.
+    + Added "Frost Trotter" and "Alchemic" to tag "enchantment/on_random_loot".
 
 ### v1.2.0. February 23rd, 2025
 

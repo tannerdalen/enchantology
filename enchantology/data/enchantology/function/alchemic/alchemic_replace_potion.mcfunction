@@ -5,7 +5,6 @@ data merge storage enchantology:item_replaced {was_item_replaced:0b}
 execute if predicate {"condition": "minecraft:random_chance","chance": 0.3} run data modify storage enchantology:item_replaced was_item_replaced set value 1b
 
 # If successful, play sound and replace empty bottle with potion
-execute if data storage enchantology:item_replaced {was_item_replaced:1b} run say yippee
 execute if data storage enchantology:item_replaced {was_item_replaced:1b} run playsound minecraft:block.brewing_stand.brew block @s ~ ~ ~ 2 2
 execute if data storage enchantology:item_replaced {was_item_replaced:1b} run item replace entity @s weapon.mainhand from entity @s player.crafting.0
 

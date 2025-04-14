@@ -1,0 +1,3 @@
+# This function is called when item enchanted with "Quarrying" hits a block
+# Checks if both Efficiency 5 and Haste II are active
+execute if items entity @s weapon.mainhand *[minecraft:enchantments~[{enchantments:"minecraft:efficiency",levels:5}]] run execute if entity @s[nbt={active_effects:[{id:"minecraft:haste",amplifier:1b}]}] run execute if block ~ ~ ~ deepslate run fill ~ ~ ~ ~ ~ ~ air destroy

@@ -2,7 +2,9 @@
     "values": [
         "#minecraft:curse",
         "#minecraft:non_treasure",
+        "enchantology:alchemic",
         "enchantology:dexterity",
+        "enchantology:frost_trotter",
         "enchantology:shattering"
     ]
 }

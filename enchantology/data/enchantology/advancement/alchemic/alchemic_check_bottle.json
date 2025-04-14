@@ -9,14 +9,31 @@
             "count": 1
           }
         ],
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "enchantology:alchemic/alchemic_check_bottle": true
+      "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "armor.*": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "enchantology:alchemic"
+                      }
+                    ]
+                  }
+                }
+              },
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "enchantology:alchemic/alchemic_drank_potion": true
+                }
+              }
             }
           }
-        }
+        ]
       }
     }
   },

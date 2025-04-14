@@ -1,12 +1,9 @@
 {
     "criteria": {
-      "drink_potion": {
-        "trigger": "minecraft:consume_item",
+      "enter_vehicle": {
+        "trigger": "minecraft:started_riding",
         "conditions": {
-          "item": {
-            "items": "minecraft:potion"
-        },
-        "player": [
+          "player": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
@@ -16,7 +13,7 @@
                     "predicates": {
                       "minecraft:enchantments": [
                         {
-                          "enchantments": "enchantology:alchemic"
+                          "enchantments": "enchantology:godfather_curse"
                         }
                       ]
                     }
@@ -29,6 +26,6 @@
       }
     },
     "rewards": {
-      "function": "enchantology:alchemic/alchemic_store_potion"
+      "function": "enchantology:godfather_curse/check_if_kill"
     }
   }

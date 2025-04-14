@@ -13,19 +13,5 @@
         "per_level_above_first": 0
     },
     "max_level": 1,
-    "effects":{
-        "minecraft:tick":[
-        {
-            "effect": {
-                "type": "minecraft:all_of",
-                "effects": [
-                {
-                    "type": "minecraft:run_function",
-                    "function": "enchantology:godfather_curse/godfather_curse"
-                }
-                ]
-            }
-        }
-        ]
-    }
+    "effects":{}
 }

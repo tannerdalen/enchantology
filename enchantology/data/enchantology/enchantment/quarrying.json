@@ -14,11 +14,11 @@
     },
     "max_level": 1,
     "effects": {
-        "minecraft:tick": [
+        "hit_block": [
             {
                 "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantology:quarrying/apply_or_remove_modifier"
+                    "type": "run_function",
+                    "function": "enchantology:quarrying/destroy_block"
                 }
             }
         ]

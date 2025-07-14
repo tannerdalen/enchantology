@@ -2,6 +2,9 @@
   "pack": {
     "description": "A Collection of New Enchantments for Minecraft!",
     "pack_format": 71,
-    "supported_formats": 71
+    "supported_formats": {
+      "min_inclusive": 71,
+      "max_inclusive": 81
+    }
   }
 }

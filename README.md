@@ -1,11 +1,16 @@
-# enchantology (v1.1.0)
-A datapack with 37 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Built for Minecraft 1.21.4.
+# enchantology (v1.2.1)
+A datapack with 37 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Built for Minecraft 1.21.5 - 1.21.7.
 
 ![](explosive_demo.gif)
 ![](subjugation_in_chest_reduced.png)
 ![](audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.2.1. July 13th, 2025
+
++ Technical changes:
+    + Updated to Minecraft 1.21.7 (still compatible with 1.21.5 and 1.21.6)
 
 ### v1.2.0. February 23rd, 2025
 

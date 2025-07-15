@@ -15,6 +15,7 @@
 | Curse of Impending Doom | You are fated to die. Reduces maximum health by half a heart every three seconds. You will die in 60 seconds, unless the curse is removed. | Armor | I | | FALSE | |
 | Curse of Masochism | Quit hitting yourself. | Armor | I | | FALSE | |
 | Curse of Paranoia | You hear auditory hallucinations periodically. | Armor | I | | FALSE | |
+| Curse of Repulsion | Dropped items are repulsed by you. | Armor | I | | FALSE | |
 | Curse of Revile | Neutral mobs have made up their minds and attack you immediately. | Armor | I | | FALSE | |
 | Curse of Uncertainty | You are not confidently tethered to the earth. Periocally teleport nearby. | Armor | I | | FALSE | |
 | Dexterity | Increased swing speed for enchanted tools. | Tools | III | | TRUE | |

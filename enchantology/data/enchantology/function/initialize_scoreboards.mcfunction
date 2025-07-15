@@ -6,6 +6,7 @@ scoreboard objectives add hasNoAI dummy
 scoreboard objectives add impendingDoomHealthRemoved dummy
 scoreboard objectives add impendingDoomTimer dummy
 scoreboard objectives add isMagnetized dummy
+scoreboard objectives add isRepulsed dummy
 scoreboard objectives add isReviled dummy
 scoreboard objectives add pos_x dummy
 scoreboard objectives add pos_y dummy

@@ -4,7 +4,7 @@ A datapack with 37 new enchantments spread across the world! Each enchantment ca
 
 
 ![](explosive_demo.gif)
-![](subjugation_in_chest_reduced.png)
+![](cursed_leggings.png)
 ![](audibility_demo_reduced.png)
 
 ## Release Notes
@@ -52,7 +52,7 @@ A datapack with 37 new enchantments spread across the world! Each enchantment ca
     + "Explosive" now deals an extra 2.5 explosive damage upon a direct hit.
     + "Ironclad" made re-compatible with Thorns.
     + "Audibility" made re-compatible with Aqua Affinity.
-    + "Gravity" now imcompatible with Punch.
+    + "Gravity" now incompatible with Punch.
     + "exclusive_set/education" added to make education/speciality enchantments mutually exclusive.
         + Includes "Alchemic" and "Audibility" upon this release.
     + Magic enchantments separated into "school" tags (e.g., enchantology:magic_school/magic_fire)

@@ -2,7 +2,7 @@
 
 | Name | Summary | Primary Item(s) | Max Level | Incompatible With | Treasure? | Found In |
 |:-----|:-------:|:---------------:|:---------:|:-----------------:|:---------:|:--------:|
-| Alchemic | Potions have a 30% chance to not be consumed when drank | Helmet | I | Audibility | TRUE | |
+| Alchemic | Potions have a 30% chance to not be consumed when drank | Helmet | I | Audibility | TRUE |  |
 | Audibility | You've honed your hearning. Hold sneak to reveal nearby mobs. | Helmet | I | Alchemic | TRUE | Ancient City |
 | Brutality | Apply bleed damage to victim. | Axes, Shears | I | | FALSE | |
 | Butchery | You carve items from injured mobs. Level I: You tear mutton from sheep, raw pork from pigs, and raw beef from cows. Level II: You rip flesh from zombies and bone meal from skeletons. Level III: You carve iron from iron golems and ender pearls from enderman. | Shears | III | | FALSE | |
@@ -30,6 +30,7 @@
 | Ironclad | You are made of sterner stuff. Take reduced knockback. | Chestplate | III |  | FALSE | |
 | Lacerating | Increased damage for shears | Shears | V | | FALSE | |
 | Leeching | Siphons the life from your victim. | Sharp Tools | II |  Withering | TRUE | Woodland Mansion |
+| Magnetic | Attract dropped items from a greater distance | Lightning Rod | I | | TRUE | Trial Chamber |
 | Oppression | Inflict slowness on your victim. | Mace | III |  | FALSE | |
 | Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |
 | Reaching | Increased entity interaction range. | Sharp Tools | III | Sweeping Edge | FALSE | |

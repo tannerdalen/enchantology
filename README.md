@@ -3,9 +3,9 @@
 A datapack with 37 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.7.
 
 
-![](explosive_demo.gif)
-![](cursed_leggings.png)
-![](audibility_demo_reduced.png)
+![](gallery/explosive_demo.gif)
+![](gallery/cursed_leggings.png)
+![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
 

@@ -1,0 +1,30 @@
+{
+    "description": "Galloping",
+    "supported_items": "#enchantology:horse_armor",
+    "slots": ["armor"],
+    "weight": 2,
+    "anvil_cost": 4,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 20
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 20
+    },
+    "max_level": 2,
+    "effects":{
+        "attributes": [
+            {
+                "attribute": "minecraft:movement_speed",
+                "id": "minecraft:generic.movement_speed",
+                "amount": {
+                    "type": "linear",
+                    "base": 0.05,
+                    "per_level_above_first": 0.05
+                },
+                "operation": "add_value"
+            }
+        ]
+    }
+}

@@ -158,6 +158,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "enchantology:alchemic",
+                "enchantology:extension",
                 "enchantology:magnetic"
               ]
             }

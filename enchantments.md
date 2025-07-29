@@ -2,7 +2,7 @@
 
 | Name | Summary | Primary Item(s) | Max Level | Incompatible With | Treasure? | Found In |
 |:-----|:-------:|:---------------:|:---------:|:-----------------:|:---------:|:--------:|
-| Alchemic | Potions have a 30% chance to not be consumed when drank | Helmet | I | Audibility | TRUE |  |
+| Alchemic | Potions have a 30% chance to not be consumed when drank | Helmet | I | Audibility | TRUE | Trial Chamber, Witch |
 | Audibility | You've honed your hearning. Hold sneak to reveal nearby mobs. | Helmet | I | Alchemic | TRUE | Ancient City |
 | Brutality | Apply bleed damage to victim. | Axes, Shears | I | | FALSE | |
 | Butchery | You carve items from injured mobs. Level I: You tear mutton from sheep, raw pork from pigs, and raw beef from cows. Level II: You rip flesh from zombies and bone meal from skeletons. Level III: You carve iron from iron golems and ender pearls from enderman. | Shears | III | | FALSE | |
@@ -23,7 +23,9 @@
 | Divinity | Increase damage to nether mobs. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
 | Escalation | Increased number of vertical blocks that can be stepped over without jumping 0.5 blocks per level. | Leggings | II | | TRUE | Jungle Temple |
 | Explosive | Crossbow arrows explode on contact | Crossbow | I | | TRUE | Pillager Output |
-| Frost Trotter | Creates frosted ice blocks when walking over water, and grants damage immunity from certain blocks such as campfires and magma blocks when stepped on. | Horse Armor | I | | TRUE | |
+| Extension | Increased block interaction range | Breeze Rod | III | | TRUE | Trial Chamber |
+| Frost Trotter | Creates frosted ice blocks when walking over water, and grants damage immunity from certain blocks such as campfires and magma blocks when stepped on. | Horse Armor | I | | TRUE | Snowy Village House |
+| Galloping | Increased base movement speed | Horse Armor | II | | FALSE | Savanna Village House | 
 | Gnashing | Wolf attacks do increased damage | Wolf Armor | V |  | TRUE | Trail Ruins |
 | Gravity | Arrows are weighted and send your airborne victim plummeting. | Bow, Crossbow | I | Punch | FALSE | |
 | Harvesting | Increased number of adjacent crops are broken around the origin. | Hoe | III |  | FALSE | |

@@ -3,6 +3,3 @@
 
 # bleedDuration, Brutality
 execute as @e[scores={bleedDuration=1..}] run scoreboard players remove @s bleedDuration 1
-
-# shearActionsCooldown, Butchery
-execute as @e[scores={shearActionsCooldown=1..}] run scoreboard players remove @s shearActionsCooldown 1

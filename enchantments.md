@@ -5,7 +5,7 @@
 | Alchemic | Potions have a 30% chance to not be consumed when drank | Helmet | I | Audibility | TRUE | Trial Chamber, Witch |
 | Audibility | You've honed your hearning. Hold sneak to reveal nearby mobs. | Helmet | I | Alchemic | TRUE | Ancient City |
 | Brutality | Apply bleed damage to victim. | Axes, Shears | I | | FALSE | |
-| Butchery | You carve items from injured mobs. Level I: You tear mutton from sheep, raw pork from pigs, and raw beef from cows. Level II: You rip flesh from zombies and bone meal from skeletons. Level III: You carve iron from iron golems and ender pearls from enderman. | Shears | III | | FALSE | |
+| Butchery | You carve items from injured mobs. You tear mutton from sheep, raw pork from pigs, and raw beef from cows. You rip flesh from zombies and bone meal from skeletons. You carve iron from iron golems and ender pearls from enderman. | Shears | I | | FALSE | |
 | Certainty | Increased damage to ender mobs. | Sharp Weapons | V | Bane of Arthropods, Breach, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
 | Curse of Agony | You are in agonizing pain. Total health is reduced by 1 heart per armor piece with this curse equipped. | Armor | I | | FALSE | |
 | Curse of Combustion | You are hot to the touch. Ignites any mob within 1 block of your position. | Armor | I | | FALSE | |

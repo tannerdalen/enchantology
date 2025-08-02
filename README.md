@@ -2,7 +2,6 @@
 
 A data pack with 41 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.8.
 
-
 ![](gallery/explosive_demo.gif)
 ![](gallery/cursed_leggings.png)
 ![](gallery/audibility_demo_reduced.png)

@@ -7,3 +7,5 @@ schedule function enchantology:gravity/reset_gravity 1s
 # entity downwards in addition to increasing gravity for a short duration.
 execute as @s run data modify entity @s Motion[1] set value -10.0d
 
+# Play a sound
+execute as @s run playsound entity.warden.attack_impact master @s ~ ~ ~ 1 1

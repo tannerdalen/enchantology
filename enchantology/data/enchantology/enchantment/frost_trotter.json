@@ -105,7 +105,7 @@
       }
     ]
   },
-  "exclusive_set": "#enchantology:exclusive_set/magic_ice",
+  "exclusive_set": "#enchantology:exclusive_set/incompatible_with_ice",
   "max_cost": {
     "base": 25,
     "per_level_above_first": 10

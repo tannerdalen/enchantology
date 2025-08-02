@@ -1,0 +1,3 @@
+### Advancement has been granted to @s, now give movement speed based on existing base speed and enchantment level
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"enchantology:galloping", levels:1}]] run attribute @s movement_speed modifier add generic.movement_speed 0.125 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"enchantology:galloping", levels:2}]] run attribute @s movement_speed modifier add generic.movement_speed 0.250 add_value

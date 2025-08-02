@@ -16,23 +16,16 @@
     "armor"
   ],
   "effects": {
-    "minecraft:damage": [
+    "attributes": [
       {
-        "effect": {
-          "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 1.25,
-            "per_level_above_first": 1.25
-          }
+        "attribute": "minecraft:attack_damage",
+        "id": "generic.attack_damage",
+        "amount": {
+          "type": "linear",
+          "base": 1,
+          "per_level_above_first": 1
         },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "attacker",
-          "predicate": {
-            "type": "minecraft:wolf"
-          }
-        }
+        "operation": "add_value"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "description": "Curse of Agony",
-  "exclusive_set": [],
+  "exclusive_set": "#enchantology:exclusive_set/incompatible_with_death",
   "supported_items": "#enchantable/armor",
   "weight": 1,
   "max_level": 1,

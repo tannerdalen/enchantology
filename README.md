@@ -1,13 +1,49 @@
-# enchantology (v1.2.2)
+# enchantology (v1.3.0)
 
-A datapack with 37 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.8.
+A data pack with 41 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.8.
 
-
-![](explosive_demo.gif)
-![](subjugation_in_chest_reduced.png)
-![](audibility_demo_reduced.png)
+![](gallery/explosive_demo.gif)
+![](gallery/cursed_leggings.png)
+![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.3.0. August 1st, 2025
+
++ 4 New Enchantments:
+    + **Extension** (Breeze Rod)
+        + Extend your block interaction range per level (max 3 levels / 1.5 blocks).
+        + Found as rare Trial Chamber loot.
+    + **Galloping** (Horse Armor)
+        + Increased base movement speed.
+        + Found on random loot and in savanna villages.
+    + **Magnetic** (Lightning Rod)
+        + Attract dropped loot from a greater distance (5 block radius). Can be used in your offhand.
+        + Found as rare Trial Chamber loot.
+    + **Curse of Repulsion** (Armor)
+        + You are repulsive. Dropped loot is pushed away from you.
++ Enchantment changes:
+    + Alchemic
+        + Added to Witch loot table.
+        + Added to rare Trial Chamber loot tables.
+        + Removed from random loot tables.
+    + Butchery
+        + Reduced maximum level from III to I.
+        + Removed `tellraw` messages to indicate when a mob has been sufficiently carved.
+        + Improved entity selector logic.
+    + Frost Trotter
+        + Added to `village_snowy_house` loot table.
+        + Removed from random loot tables.
+    + Gnashing
+        + Fixed bug where enchantment did not increase wolf damage.
+    + Gravity
+        + Now works on players and entities affected by `gravity` attribute.
+        + Added sound effect upon hit.
+
++ Technical changes:
+    + Renamed `exclusive_set` "magic" tags better clarity between which are exclusive and which are complementary.
+    + `on_respawn` function added to `tick` functions to run on player respawn to catch unwanted behaviors.
+
 
 ### v1.2.2. July 13th, 2025
 
@@ -52,7 +88,7 @@ A datapack with 37 new enchantments spread across the world! Each enchantment ca
     + "Explosive" now deals an extra 2.5 explosive damage upon a direct hit.
     + "Ironclad" made re-compatible with Thorns.
     + "Audibility" made re-compatible with Aqua Affinity.
-    + "Gravity" now imcompatible with Punch.
+    + "Gravity" now incompatible with Punch.
     + "exclusive_set/education" added to make education/speciality enchantments mutually exclusive.
         + Includes "Alchemic" and "Audibility" upon this release.
     + Magic enchantments separated into "school" tags (e.g., enchantology:magic_school/magic_fire)

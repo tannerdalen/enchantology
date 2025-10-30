@@ -1,0 +1,2 @@
+# Duration is 2.5 seconds (50 ticks) shorter than cushioning effect is active so it "fades out" before actual deactivation
+execute as @e[type=arrow,tag=cushioned,scores={cushioningActiveTimer=1}] at @s run summon area_effect_cloud ~ ~ ~ {Duration:150,custom_particle:{type:"entity_effect",color:[0.059,1.000,0.216,1]},potion_contents:{custom_color:8439583}}

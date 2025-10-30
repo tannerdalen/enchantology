@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-      "#enchantology:exclusive_set/incompatible_with_void",
+      "#enchantology:exclusive_set/incompatible_with_reality",
       "minecraft:punch"
     ]
   }

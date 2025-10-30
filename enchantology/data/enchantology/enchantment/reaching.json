@@ -1,7 +1,7 @@
 {
   "description": "Reaching",
   "exclusive_set": "#enchantology:exclusive_set/aoe_melee",
-  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "supported_items": "#enchantology:reaching",
   "weight": 2,
   "max_level": 3,
   "min_cost": {

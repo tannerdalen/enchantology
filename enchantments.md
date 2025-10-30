@@ -22,7 +22,7 @@
 | Discordant | Victims struck by arrows from this enchanted bow teleport randomly nearby. | Bow | I | | TRUE | End City |
 | Divinity | Increase damage to nether mobs. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
 | Escalation | Increased number of vertical blocks that can be stepped over without jumping 0.5 blocks per level. | Leggings | II | | TRUE | Jungle Temple |
-| Explosive | Crossbow arrows explode on contact | Crossbow | I | | TRUE | Pillager Output |
+| Explosive | Crossbow arrows explode on contact | Crossbow | I | | TRUE | Pillager Outpost |
 | Extension | Increased block interaction range | Breeze Rod | III | | TRUE | Trial Chamber |
 | Frost Trotter | Creates frosted ice blocks when walking over water, and grants damage immunity from certain blocks such as campfires and magma blocks when stepped on. | Horse Armor | I | | TRUE | Snowy Village House |
 | Galloping | Increased base movement speed | Horse Armor | II | | FALSE | Savanna Village House | 

@@ -22,7 +22,7 @@ If ```Treasure?``` == ```FALSE```, these enchantments can be found on random loo
 | Curse of Repulsion | Dropped items are repulsed by you. | Armor | I | | FALSE | |
 | Curse of Revile | Neutral mobs have made up their minds and attack you immediately. | Armor | I | | FALSE | |
 | Curse of Uncertainty | You are not confidently tethered to the earth. Periocally teleport nearby. | Armor | I | ```#enchantology:exclusive_set/incompatible_with_void``` | FALSE |  |
-Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall damage for those who land within it. | Bow, Crossbow | I | ```#enchantology:exclusive_set/incompatible_with_reality``` | TRUE | End City
+Cushioning | Arrows struck onto blocks create a magical cushion, prevent fall damage for those who land within it. | Bow, Crossbow | I | ```#enchantology:exclusive_set/incompatible_with_reality``` | TRUE | End City
 | Dexterity | Increased swing speed for enchanted tools. | Tools | III | | TRUE | |
 | Discordant | Victims struck by arrows from this enchanted bow teleport randomly nearby. | Bow | I | ```#enchantology:exclusive_set/incompatible_with_void``` | TRUE | End City |
 | Divinity | Increase damage to nether mobs. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |

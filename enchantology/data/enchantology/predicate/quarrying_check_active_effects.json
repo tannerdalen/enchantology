@@ -1,0 +1,28 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {},
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "minecraft:efficiency",
+              "levels": {
+                "min": 5
+              }
+            }
+          ]
+        }
+      }
+    },
+    "effects": {
+      "minecraft:haste": {
+        "amplifier": {
+          "min": 1
+        }
+      }
+    }
+  }
+}

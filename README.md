@@ -1,6 +1,6 @@
-# enchantology (v1.3.0)
+# enchantology (v1.3.1)
 
-A data pack with 41 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.8.
+A data pack with 41 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.10.
 
 
 ![](gallery/explosive_demo.gif)
@@ -8,6 +8,16 @@ A data pack with 41 new enchantments spread across the world! Each enchantment c
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.3.1. October 29th, 2025
+
++ Enchantology updated to Minecraft 1.21.10
+    + Still compatible with 1.21.5-1.21.9.
++ Enchantment changes:
+    + Reaching
+        + Now compatible with Tridents and Shears.
+    + Quarrying
+        + Fixed bug where enchantment would not work with Efficiency / Haste values exceeding vanilla maximums (e.g., Efficiency VI + Haste III).
 
 ### v1.3.0. August 1st, 2025
 
@@ -44,7 +54,6 @@ A data pack with 41 new enchantments spread across the world! Each enchantment c
 + Technical changes:
     + Renamed `exclusive_set` "magic" tags better clarity between which are exclusive and which are complementary.
     + `on_respawn` function added to `tick` functions to run on player respawn to catch unwanted behaviors.
-
 
 ### v1.2.2. July 13th, 2025
 

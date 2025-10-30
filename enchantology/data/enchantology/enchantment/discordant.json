@@ -1,6 +1,7 @@
 {
     "description": "Discordant",
     "supported_items": "#minecraft:enchantable/bow",
+    "exclusive_set": "#enchantology:exclusive_set/incompatible_with_void",
     "slots": ["mainhand"],
     "weight": 2,
     "max_level": 1,

@@ -1,6 +1,7 @@
 {
     "description": "Curse of Uncertainty",
     "supported_items": "#minecraft:enchantable/armor",
+    "exclusive_set": "#enchantology:exclusive_set/incompatible_with_void",
     "slots": ["armor"],
     "weight": 10,
     "anvil_cost": 8,

@@ -1,7 +1,7 @@
 {
     "description": "Will of Animus",
     "supported_items": ["minecraft:arms_up_pottery_sherd"],
-    "exclusive_set": [],
+    "exclusive_set": "#enchantology:exclusive_set/incompatible_with_void",
     "slots": ["mainhand"],
     "weight": 10,
     "anvil_cost": 0,

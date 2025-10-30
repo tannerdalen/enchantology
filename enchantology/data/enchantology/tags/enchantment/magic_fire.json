@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+      "enchantology:combustion_curse",
       "enchantology:explosive",
       "enchantology:immolation",
       "minecraft:fire_aspect",

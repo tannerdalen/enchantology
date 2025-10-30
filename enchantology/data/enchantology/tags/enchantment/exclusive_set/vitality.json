@@ -1,8 +1,7 @@
 {
     "replace": false,
     "values": [
-      "enchantology:agony_curse",
-      "enchantology:impending_doom_curse",
+      "#enchantology:exclusive_set/damage",
       "enchantology:withering"
     ]
   }

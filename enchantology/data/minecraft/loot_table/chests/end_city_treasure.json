@@ -122,7 +122,8 @@
             "functions": [
               {
                 "function": "minecraft:enchant_randomly",
-                "options": "enchantology:discordant"
+                "options": ["enchantology:discordant",
+                            "enchantology:cushioning"]
               }
             ],
             "name": "minecraft:book",

@@ -3,7 +3,7 @@
   "supported_items": [
     "minecraft:bow"
   ],
-  "exclusive_set": "#enchantology:exclusive_set/incompatible_with_energy",
+  "exclusive_set": "#enchantology:exclusive_set/incompatible_with_despawned_arrow",
   "weight": 2,
   "max_level": 1,
   "min_cost": {

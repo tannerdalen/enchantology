@@ -3,17 +3,25 @@
     "using_bow": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": {
-            "equipment": {
-                "mainhand": {
-                "components": {
-                    "minecraft:enchantments": {
-                    "enchantology:intuition": 1
+        "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "weapon.mainhand": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "enchantology:intuition"
+                        }
+                      ]
                     }
+                  }
                 }
-                }
+              }
             }
-        }
+          ]
       }
     }
   },

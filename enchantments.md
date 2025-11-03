@@ -35,6 +35,7 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Gravity | Arrows are weighted and send your airborne victim plummeting. | Bow, Crossbow | I | Discordant, Punch | FALSE | |
 | Harvesting | Increased number of adjacent crops are broken around the origin. | Hoe | III |  | FALSE | |
 | Immolation | Can directly ignite players/entities | Flint & Steel | I | | TRUE | Ruined Portal |
+| Intuition | Drawing your bow blinds you, but your arrows do 1.5x damage when outside your vision (5 blocks). | Bow | I | | TRUE | Strong Library, Trial Chamber |
 | Ironclad | You are made of sterner stuff. Take reduced knockback. | Chestplate | III |  | FALSE | |
 | Lacerating | Increased damage for shears | Shears | V | | FALSE | |
 | Leeching | Siphons the life from your victim. | Sharp Tools | II |  Withering | TRUE | Woodland Mansion |
@@ -43,6 +44,7 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |
 | Reaching | Increased entity interaction range. | Sharp Tools, Trident, Shears | III | Sweeping Edge | FALSE | |
 | Shattering | Reduce armor effectiveness of your victim. | Axes | III |  | TRUE | |
+| Shrieking | Your arrows become pure energy, releasing a instant and powerful sonic charge. | Bow | I | Cushioning, Discordant, Explosive, Flame, Gravity, Power, Punch | TRUE | Ancient City |
 | Subjugation | You are cruel. Increased damage to villagers, golems, and sniffers. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Vigilance, Vitality | TRUE | Pillager Outpost, Woodland Mansion |
 | Vigilance | You are just. Increased damage to illagers, evokers, illusioners, evokers, etc. | Sharp Tools | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vitality | FALSE | | 
 | Vitality | Your strike replenishes life to your victim's bones. Substantial increase (greater than Smite) to damage dealt exclusively to Wither and Wither Skeletons. | Sharp Tools | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Withering | TRUE | Bastion Treasure Chest |

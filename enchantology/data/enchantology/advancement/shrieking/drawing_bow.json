@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "using_bow": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+            "equipment": {
+                "mainhand": {
+                "components": {
+                    "minecraft:enchantments": {
+                    "enchantology:shrieking": 1
+                    }
+                }
+                }
+            }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "enchantology:shrieking/playsound"
+  }
+}

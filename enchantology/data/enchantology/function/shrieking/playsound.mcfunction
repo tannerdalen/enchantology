@@ -1,0 +1,2 @@
+# Only play the sound the first tick the player starts drawing the bow
+execute as @a[nbt={SelectedItem:{id:"minecraft:bow", components:{"minecraft:enchantments":{"enchantology:shrieking":1}}}},advancements={enchantology:shrieking/drawing_bow=true}] run playsound entity.warden.sonic_charge master @s ~ ~ ~ 1 1.5

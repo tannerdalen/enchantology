@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "enchantology:cushioning",
+        "enchantology:discordant",
+        "enchantology:explosive",
+        "enchantology:gravity",
+        "minecraft:flame",
+        "minecraft:power",
+        "minecraft:punch"
+    ]
+  }

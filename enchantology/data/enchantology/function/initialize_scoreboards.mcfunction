@@ -1,6 +1,7 @@
 ### Loads all the scoreboards used by enchantology
 
 # Accountacy scoreboards
+scoreboard objectives add entityID dummy
 scoreboard objectives add time_since_death custom:time_since_death
 
 # Enchantment-specific scoreboards

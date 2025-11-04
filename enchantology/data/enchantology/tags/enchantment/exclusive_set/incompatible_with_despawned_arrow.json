@@ -1,11 +1,16 @@
 {
     "replace": false,
     "values": [
+        "enchantology:intuition",
         "enchantology:cushioning",
         "enchantology:discordant",
         "enchantology:explosive",
         "enchantology:gravity",
+        "enchantology:precision",
+        "enchantology:transposition",
+        "enchantology:thunderbolting",
         "minecraft:flame",
+        "minecraft:piercing",
         "minecraft:power",
         "minecraft:punch"
     ]

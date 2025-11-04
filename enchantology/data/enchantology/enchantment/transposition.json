@@ -1,5 +1,5 @@
 {
-    "description": "Discordant",
+    "description": "Transposition",
     "supported_items": ["minecraft:bow",
                         "minecraft:crossbow"],
     "exclusive_set": "#enchantology:exclusive_set/incompatible_with_void",
@@ -63,7 +63,7 @@
                 },
                 {
                     "type": "minecraft:run_function",
-                    "function": "enchantology:discordant/discordant_teleport"
+                    "function": "enchantology:transposition/swap_positions"
                 },
                 {
                     "type": "minecraft:play_sound",

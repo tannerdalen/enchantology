@@ -1,4 +1,4 @@
-{
+{   "replace":false,
     "values":[
         "enchantology:alchemic",
         "enchantology:audibility",
@@ -17,6 +17,7 @@
         "enchantology:shattering",
         "enchantology:shrieking",
         "enchantology:subjugation",
+        "enchantology:transposition",
         "enchantology:quarrying",
         "enchantology:vitality",
         "enchantology:withering"

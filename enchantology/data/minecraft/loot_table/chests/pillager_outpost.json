@@ -196,7 +196,8 @@
             "functions": [
               {
                 "function": "minecraft:enchant_randomly",
-                "options": "enchantology:subjugation"
+                "options": ["enchantology:subjugation",
+                            "enchantology:precision"]
               }
             ],
             "name": "minecraft:book",

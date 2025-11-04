@@ -1,4 +1,4 @@
-{
+{   "replace":false,
     "values": [
         "enchantology:brutality",
         "enchantology:butchery",
@@ -10,7 +10,9 @@
         "enchantology:ironclad",
         "enchantology:lacerating",
         "enchantology:oppression",
+        "enchantology:precision",
         "enchantology:reaching",
+        "enchantology:thunderbolting",
         "enchantology:vigilance"
     ]
 }

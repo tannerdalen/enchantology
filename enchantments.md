@@ -22,30 +22,33 @@ In general, enchantments of a certain "school" are compatible with each other an
 | Curse of Repulsion | Dropped items are repulsed by you. | Armor | I | | FALSE | |
 | Curse of Revile | Neutral mobs have made up their minds and attack you immediately. | Armor | I | | FALSE | |
 | Curse of Uncertainty | You are not confidently tethered to the earth. Periocally teleport nearby. | Armor | I | | FALSE | |
-Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall damage for those who land within it. | Bow, Crossbow | I | Discordant | TRUE | End City
+Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall damage for those who land within it. | Bow, Crossbow | I | Discordant, Shrieking, Transposition | TRUE | End City
 | Dexterity | Increased swing speed for enchanted tools. | Tools | III | | TRUE | |
-| Discordant | Victims struck by arrows from this enchanted bow teleport randomly nearby. | Bow | I | Cushioning, Gravity | TRUE | End City |
+| Discordant | Victims struck by arrows from this enchanted bow teleport randomly nearby. | Bow, Crossbow | I | Cushioning, Gravity, Shrieking | TRUE | End City |
 | Divinity | Increase damage to nether mobs. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
 | Escalation | Increased number of vertical blocks that can be stepped over without jumping 0.5 blocks per level. | Leggings | II | | TRUE | Jungle Temple |
-| Explosive | Crossbow arrows explode on contact | Crossbow | I |  | TRUE | Pillager Outpost |
-| Extension | Increased block interaction range | Breeze Rod | III | | TRUE | Trial Chamber |
+| Explosive | Crossbow arrows explode on contact. | Crossbow | I | Thunderbolting | TRUE | Pillager Outpost |
+| Extension | Increased block interaction range. | Breeze Rod | III | | TRUE | Trial Chamber |
 | Frost Trotter | Creates frosted ice blocks when walking over water, and grants damage immunity from certain blocks such as campfires and magma blocks when stepped on. | Horse Armor | I | | TRUE | Snowy Village House |
-| Galloping | Increased base movement speed | Horse Armor | II | | FALSE | Savanna Village House | 
-| Gnashing | Wolf attacks do increased damage | Wolf Armor | V |  | TRUE | Trail Ruins |
-| Gravity | Arrows are weighted and send your airborne victim plummeting. | Bow, Crossbow | I | Discordant, Punch | FALSE | |
+| Galloping | Increased base movement speed. | Horse Armor | II | | FALSE | Savanna Village House | 
+| Gnashing | Wolf attacks do increased damage. | Wolf Armor | V |  | TRUE | Trail Ruins |
+| Gravity | Arrows are weighted and send your airborne victim plummeting. | Bow, Crossbow | I | Discordant, Punch, Shrieking, Transposition | FALSE | |
 | Harvesting | Increased number of adjacent crops are broken around the origin. | Hoe | III |  | FALSE | |
-| Immolation | Can directly ignite players/entities | Flint & Steel | I | | TRUE | Ruined Portal |
-| Intuition | Drawing your bow blinds you, but your arrows do 1.5x damage when outside your vision (5 blocks). | Bow | I | | TRUE | Strong Library, Trial Chamber |
+| Immolation | Can directly ignite players/entities. | Flint & Steel | I | | TRUE | Ruined Portal |
+| Intuition | Drawing your bow blinds you, but your arrows do 1.5x damage when outside your vision (5 blocks). | Bow | I | Shrieking | TRUE | Strong Library, Trial Chamber |
 | Ironclad | You are made of sterner stuff. Take reduced knockback. | Chestplate | III |  | FALSE | |
-| Lacerating | Increased damage for shears | Shears | V | | FALSE | |
+| Lacerating | Increased damage for shears. | Shears | V | | FALSE | |
 | Leeching | Siphons the life from your victim. | Sharp Tools | II |  Withering | TRUE | Woodland Mansion |
-| Magnetic | Attract dropped items from a greater distance | Lightning Rod | I | | TRUE | Trial Chamber |
+| Magnetic | Attract dropped items from a greater distance. | Lightning Rod | I | | TRUE | Trial Chamber |
 | Oppression | Inflict slowness on your victim. | Mace | III |  | FALSE | |
-| Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |
+| Precision | Decrease projectile spread if paired with Multishot. | Crossbow | III | | FALSE | Pillager Outpost |
+| Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II. | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |
 | Reaching | Increased entity interaction range. | Sharp Tools, Trident, Shears | III | Sweeping Edge | FALSE | |
 | Shattering | Reduce armor effectiveness of your victim. | Axes | III |  | TRUE | |
-| Shrieking | Your arrows become pure energy, releasing a instant and powerful sonic charge. | Bow | I | Cushioning, Discordant, Explosive, Flame, Gravity, Power, Punch | TRUE | Ancient City |
+| Shrieking | Your arrows become pure energy, releasing a instant and powerful sonic charge. | Bow | I | Cushioning, Discordant, Flame, Gravity, Intuition, Power, Punch | TRUE | Ancient City |
 | Subjugation | You are cruel. Increased damage to villagers, golems, and sniffers. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Vigilance, Vitality | TRUE | Pillager Outpost, Woodland Mansion |
+| Thunderbolting | Lightning strikes upon hitting your opponent or a lightning rod during a thunderstorm. | Crossbow | I | Explosive | False | Underwater Ruins |
+| Transposition | You and your victim swap places. | Bow, Crossbow | I | Cushioning, Gravity, Shrieking | TRUE | End City |
 | Vigilance | You are just. Increased damage to illagers, evokers, illusioners, evokers, etc. | Sharp Tools | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vitality | FALSE | | 
 | Vitality | Your strike replenishes life to your victim's bones. Substantial increase (greater than Smite) to damage dealt exclusively to Wither and Wither Skeletons. | Sharp Tools | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Withering | TRUE | Bastion Treasure Chest |
 | Will of Animus | Overwhelm your victim with deafening power. Striking entites with this enchantment disables their AI! | Arms Up Pottery Shard | I | | N/A | Commands Only. |

@@ -1,12 +1,46 @@
 # enchantology (v1.3.1)
 
-A data pack with 41 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.10.
+A data pack with 47 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.10.
 
 ![](gallery/explosive_demo.gif)
 ![](gallery/cursed_leggings.png)
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.3.1. October 29th, 2025 (The Bow Update)
+
++ 6 New Enchantments:
+    + **Cushioning** (Bow, Crossbow)
+        + Arrows struck onto blocks create a magical cushion, preventing fall damage for those who land within it.
+        + Incompatible with `Discordant` and `Transposition`.
+        + Found in End Cities.
+    + **Intuition** (Bow)
+        + You are intuitive. Drawing your bow blinds you, but your arrows do 1.5x damage beyond your vision (5 blocks).
+        + Found in Stronghold Libraries and rare Trial Chamber loot.
+    + **Precision** (Crossbow)
+        + Decrease projectile spread for crossbows with multishot. If multishot is not applied, does nothing.
+        + Found in Pillager Outposts.
+    + **Shrieking** (Bow)
+        + Your arrows become pure energy, releasing a instant and powerful sonic charge.
+        + Shriek penetrates both air and water, damage decreases with distance.
+        + Incompatible with several enchantments; see wiki.
+        + Found in Ancient Cities.
+    + **Thunderbolting** (Crossbow)
+        + Lightning strikes upon hitting your opponent (or a lightning rod) during a thunderstorm.
+        + Incompatible with `Explosive`.
+        + Found on random loot, enchanting table, fishing, and Underwater Ruins.
+    + **Transposition** (Bow, Crossbow)
+        + Upon striking an opponent, your positions are swapped.
+        + Incompatible with `Cushioning` and `Gravity`.
+        + Found in End Cities.
++ Enchantment changes:
+    + Audibility
+        + Reduced drop chances in ancient city chests.
+    + Discordant
+        + Now compatible with crossbows.
+    + Frost Trotter
+        + Added to `igloo_chest` loot table.
 
 ### v1.3.1. October 29th, 2025
 

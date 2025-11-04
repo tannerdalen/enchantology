@@ -1,4 +1,4 @@
-# enchantology (v1.3.1)
+# enchantology (v1.4.0)
 
 A data pack with 47 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.10.
 
@@ -8,7 +8,7 @@ A data pack with 47 new enchantments spread across the world! Each enchantment c
 
 ## Release Notes
 
-### v1.3.1. October 29th, 2025 (The Bow Update)
+### v1.4.0. November 3rd, 2025 (The Bow Update)
 
 + 6 New Enchantments:
     + **Cushioning** (Bow, Crossbow)

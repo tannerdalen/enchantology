@@ -1,0 +1,1 @@
+execute store result score @s entityID run scoreboard players add #new entityID 1

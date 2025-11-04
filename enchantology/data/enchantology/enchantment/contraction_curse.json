@@ -1,6 +1,7 @@
 {
   "description": "Curse of Contraction",
   "supported_items": "#minecraft:enchantable/armor",
+  "exclusive_set": "#enchantology:exclusive_set/incompatible_with_reality",
   "weight": 1,
   "max_level": 1,
   "min_cost": {

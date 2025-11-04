@@ -1,10 +1,12 @@
-{
+{   "replace":false,
     "values":[
         "enchantology:alchemic",
         "enchantology:audibility",
+        "enchantology:cushioning",
         "enchantology:dexterity",
         "enchantology:discordant",
         "enchantology:immolation",
+        "enchantology:intuition",
         "enchantology:escalation",
         "enchantology:explosive",
         "enchantology:extension",
@@ -13,7 +15,9 @@
         "enchantology:leeching",
         "enchantology:magnetic",
         "enchantology:shattering",
+        "enchantology:shrieking",
         "enchantology:subjugation",
+        "enchantology:transposition",
         "enchantology:quarrying",
         "enchantology:vitality",
         "enchantology:withering"

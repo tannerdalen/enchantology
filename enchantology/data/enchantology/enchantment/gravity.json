@@ -1,6 +1,6 @@
 {
   "description": "Gravity",
-  "exclusive_set": "minecraft:punch",
+  "exclusive_set": "#enchantology:exclusive_set/gravity",
   "supported_items": [
     "minecraft:bow",
     "minecraft:crossbow"

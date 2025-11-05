@@ -32,7 +32,7 @@ A data pack with 47 new enchantments spread across the world! Each enchantment c
         + Found on random loot, enchanting table, fishing, and Underwater Ruins.
     + **Transposition** (Bow, Crossbow)
         + Upon striking an opponent, your positions are swapped.
-        + Incompatible with `Cushioning` and `Gravity`.
+        + Incompatible with `Cushioning`, `Gravity`, and `shrieking`.
         + Found in End Cities.
 + Enchantment changes:
     + Audibility

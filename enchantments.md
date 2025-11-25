@@ -39,7 +39,7 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Ironclad | You are made of sterner stuff. Take reduced knockback. | Chestplate | III |  | FALSE | |
 | Lacerating | Increased damage for shears. | Shears | V | | FALSE | |
 | Leeching | Siphons the life from your victim. | Sharp Tools | II |  Withering | TRUE | Woodland Mansion |
-| Magnetic | Attract dropped items from a greater distance. | Lightning Rod | I | | TRUE | Trial Chamber |
+| Magnetic | Attract dropped items from a greater distance. | Lightning Rod, Iron Armor | I | | TRUE | Trial Chamber |
 | Oppression | Inflict slowness on your victim. | Mace | III |  | FALSE | |
 | Precision | Decrease projectile spread if paired with Multishot. | Crossbow | III | | FALSE | Pillager Outpost |
 | Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II. | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |

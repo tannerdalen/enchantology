@@ -1,7 +1,12 @@
 {
     "description": "Magnetic",
-    "supported_items": "minecraft:lightning_rod",
-    "slots": ["hand"],
+    "supported_items": ["minecraft:lightning_rod",
+                        "minecraft:iron_helmet",
+                        "minecraft:iron_chestplate",
+                        "minecraft:iron_leggings",
+                        "minecraft:iron_boots"
+                        ],
+    "slots": ["hand", "armor"],
     "weight": 10,
     "anvil_cost": 8,
     "max_cost": {

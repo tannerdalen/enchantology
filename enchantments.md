@@ -39,11 +39,12 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Ironclad | You are made of sterner stuff. Take reduced knockback. | Chestplate | III |  | FALSE | |
 | Lacerating | Increased damage for shears. | Shears | V | | FALSE | |
 | Leeching | Siphons the life from your victim. | Sharp Tools | II |  Withering | TRUE | Woodland Mansion |
-| Magnetic | Attract dropped items from a greater distance. | Lightning Rod, Iron Armor | I | | TRUE | Trial Chamber |
+| Magnetic | Attract dropped items from a greater distance. | Lightning Rod, Copper Armor | I | | TRUE | Trial Chamber |
 | Oppression | Inflict slowness on your victim. | Mace | III |  | FALSE | |
 | Precision | Decrease projectile spread if paired with Multishot. | Crossbow | III | | FALSE | Pillager Outpost |
 | Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II. | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |
 | Reaching | Increased entity interaction range. | Sharp Tools, Trident, Shears | III | Sweeping Edge | FALSE | |
+| Salubrity | Increased maximum health (maximum 4 hearts). | Armor | II | Curse of Agony, Curse of Impending Doom, Protection | TRUE | Sniffer Digging |
 | Shattering | Reduce armor effectiveness of your victim. | Axes | III |  | TRUE | |
 | Shrieking | Your arrows become pure energy, releasing a instant and powerful sonic charge. | Bow | I | Cushioning, Discordant, Flame, Gravity, Intuition, Power, Punch | TRUE | Ancient City |
 | Subjugation | You are cruel. Increased damage to villagers, golems, and sniffers. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Vigilance, Vitality | TRUE | Pillager Outpost, Woodland Mansion |

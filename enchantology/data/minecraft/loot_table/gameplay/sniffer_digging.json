@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds",
+          "weight": 47
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod",
+          "weight": 47
+        },
+        {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+                {
+                    "function": "minecraft:enchant_randomly",
+                    "options": "enchantology:salubrity"
+                }
+            ],
+            "weight": 6
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
+}

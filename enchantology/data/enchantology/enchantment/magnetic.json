@@ -1,10 +1,10 @@
 {
     "description": "Magnetic",
     "supported_items": ["minecraft:lightning_rod",
-                        "minecraft:iron_helmet",
-                        "minecraft:iron_chestplate",
-                        "minecraft:iron_leggings",
-                        "minecraft:iron_boots"
+                        "minecraft:copper_helmet",
+                        "minecraft:copper_chestplate",
+                        "minecraft:copper_leggings",
+                        "minecraft:copper_boots"
                         ],
     "slots": ["hand", "armor"],
     "weight": 10,

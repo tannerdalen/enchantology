@@ -1,0 +1,31 @@
+{
+    "description": "Salubrity",
+    "supported_items": "#minecraft:enchantable/armor",
+    "exclusive_set": "#enchantology:exclusive_set/salubrity",
+    "slots": ["armor"],
+    "weight": 2,
+    "anvil_cost": 1,
+    "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+    },
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 11
+    },
+    "max_level": 2,
+    "effects":{
+        "attributes": [
+            {
+                "attribute": "minecraft:max_health",
+                "id": "minecraft:generic.max_health",
+                "amount": {
+                    "type": "linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                },
+                "operation": "add_value"
+            }
+        ]
+    }
+}

@@ -2,7 +2,11 @@
 
 The following table describes each enchantment and curse introduced in Enchantology. If `Treasure?` == `TRUE`, these enchantments can only be acquired by fishing, looting certain structures, or from certain mobs (see `Found In` column). If `Treasure?` == `FALSE`, these can be also be acquired through fishing, on random loot, or in the Enchanting Table.
 
-In general, enchantments of a certain "school" are compatible with each other and incompatible with others. For example, `Curse of Combustion` is a fire-based enchantment which cannot be combined with `Frost Walker`, an ice-based enchantment. Similarly, `Gravity` (reality magic) is incompatible with `Discordant` (void magic). Other incompatibilties exist, such as the damage (e.g., `Sharpness`, `Smite`, `Certainty`, and `Vigilance`) or education (e.g., `Audibility` and `Alchemic`). Users are encouraged to read the documentation below as well as the enchantment JSON files to familiarize themselves with the various compatibilites.
+In general, enchantments of a certain "school" are compatible with each other and incompatible with others. For example, `Curse of Combustion` is a fire-based enchantment which cannot be combined with `Frost Walker`, an ice-based enchantment. Similarly, `Gravity` (reality magic) is incompatible with `Discordant` (void magic). Other incompatibilties exist, such as the damage (e.g., `Sharpness`, `Smite`, `Certainty`, and `Vigilance`) or education (e.g., `Audibility` and `Alchemic`). 
+
+Due to these schools, **certain vanilla enchantments have been made incompatible with other vanilla enchantments**. This is done absolutely minimally to keep the game vanilla-friendly whilst consistent with these rules. The only instance of this is `Fire Protection` and `Frost Walker`, which are now incompatible.  
+
+**Users are encouraged to read the documentation below as well as the enchantment JSON files to familiarize themselves with the various compatibilites.**
 
 | Name | Summary | Primary Item(s) | Max Level | Incompatible With | Treasure? | Found In |
 |:-----|:-------:|:---------------:|:---------:|:-----------------:|:---------:|:--------:|
@@ -45,8 +49,10 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II. | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |
 | Reaching | Increased entity interaction range. | Sharp Tools, Trident, Shears | III | Sweeping Edge | FALSE | |
 | Salubrity | Increased maximum health (maximum 4 hearts). | Armor | II | Curse of Agony, Curse of Impending Doom, Protection | TRUE | Sniffer Digging |
+| Sand Strider | Increased movement on sand, red sand, and suspicious sand, but slowly drains durability in the process. | Boots | III | Depth Strider | TRUE | Desert Pyramid
 | Shattering | Reduce armor effectiveness of your victim. | Axes | III |  | TRUE | |
 | Shrieking | Your arrows become pure energy, releasing a instant and powerful sonic charge. | Bow | I | Cushioning, Discordant, Flame, Gravity, Intuition, Power, Punch | TRUE | Ancient City |
+| Steadfast | Protection for horse and wolf armor. | Horse Armor, Wolf Armor | IV | | FALSE | |
 | Subjugation | You are cruel. Increased damage to villagers, golems, and sniffers. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Vigilance, Vitality | TRUE | Pillager Outpost, Woodland Mansion |
 | Thunderbolting | Lightning strikes upon hitting your opponent or a lightning rod during a thunderstorm. | Crossbow | I | Explosive | False | Underwater Ruins |
 | Transposition | You and your victim swap places. | Bow, Crossbow | I | Cushioning, Gravity, Shrieking | TRUE | End City |

@@ -15,12 +15,12 @@ Due to these schools, **certain vanilla enchantments have been made incompatible
 | Brutality | Apply bleed damage to victim. | Axes, Shears | I | | FALSE | |
 | Butchery | You carve items from injured mobs. You tear mutton from sheep, raw pork from pigs, and raw beef from cows. You rip flesh from zombies and bone meal from skeletons. You carve iron from iron golems and ender pearls from enderman. | Shears | I | | FALSE | |
 | Certainty | Increased damage to ender mobs. | Sharp Weapons | V | Bane of Arthropods, Breach, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
-| Curse of Agony | You are in agonizing pain. Total health is reduced by 1 heart per armor piece with this curse equipped. | Armor | I |  | FALSE | |
+| Curse of Agony | You are in agonizing pain. Total health is reduced by 1 heart per armor piece with this curse equipped. | Armor | I | Salubrity | FALSE | |
 | Curse of Combustion | You are hot to the touch. Ignites any mob within 1 block of your position. | Armor | I | Frost Walker | FALSE | |
 | Curse of Contraction | You have been shrunk. Your size, speed, attack damage, jump height, and entity/block interaction range are reduced by 12.5% per armor piece with this curse equipped. | Armor | I | Curse of Uncertainty | FALSE | |
 | Curse of Fatigue | You are fatigued. Your mining speed is greatly reduced. | Armor | I | | FALSE | | 
 | Curse of the Godfather | You have made enemies. Every time you enter a vehicle (minecart, horse, etc.), there is a small chance it is rigged to explode. | Armor | I | | FALSE | |
-| Curse of Impending Doom | You are fated to die. Reduces maximum health by half a heart every three seconds. You will die in 60 seconds, unless the curse is removed. | Armor | I |  | FALSE | |
+| Curse of Impending Doom | You are fated to die. Reduces maximum health by half a heart every three seconds. You will die in 60 seconds, unless the curse is removed. | Armor | I | Salubrity | FALSE | |
 | Curse of Masochism | Quit hitting yourself. | Armor | I | | FALSE | |
 | Curse of Paranoia | You hear auditory hallucinations periodically. | Armor | I | | FALSE | |
 | Curse of Repulsion | Dropped items are repulsed by you. | Armor | I | | FALSE | |
@@ -59,4 +59,6 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Vigilance | You are just. Increased damage to illagers, evokers, illusioners, evokers, etc. | Sharp Tools | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vitality | FALSE | | 
 | Vitality | Your strike replenishes life to your victim's bones. Substantial increase (greater than Smite) to damage dealt exclusively to Wither and Wither Skeletons. | Sharp Tools | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Withering | TRUE | Bastion Treasure Chest |
 | Will of Animus | Overwhelm your victim with deafening power. Striking entites with this enchantment disables their AI! | Arms Up Pottery Shard | I | | N/A | Commands Only. |
+| Windshear | Your wings slice into your opponents, dealing damage when gliding at high speeds. | Elytra | V | Windshield | TRUE | End City |
+| Windshield | Additional damage reduction (half that of Protection) for Elytras. | Elytra | IV | Windshear | TRUE | End City |
 | Withering | Inflict the wither debuff on your victims. | Sharp Tools | II | Leeching, Vitality | TRUE | Nether Fortress |

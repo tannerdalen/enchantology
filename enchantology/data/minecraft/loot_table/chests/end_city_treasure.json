@@ -124,7 +124,10 @@
                 "function": "minecraft:enchant_randomly",
                 "options": ["enchantology:discordant",
                             "enchantology:cushioning",
-                            "enchantology:transposition"]
+                            "enchantology:transposition",
+                            "enchantology:windshear",
+                            "enchantology:windshield" 
+                           ]
               }
             ],
             "name": "minecraft:book",

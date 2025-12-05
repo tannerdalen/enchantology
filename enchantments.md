@@ -4,8 +4,6 @@ The following table describes each enchantment and curse introduced in Enchantol
 
 In general, enchantments of a certain "school" are compatible with each other and incompatible with others. For example, `Curse of Combustion` is a fire-based enchantment which cannot be combined with `Frost Walker`, an ice-based enchantment. Similarly, `Gravity` (reality magic) is incompatible with `Discordant` (void magic). Other incompatibilties exist, such as the damage (e.g., `Sharpness`, `Smite`, `Certainty`, and `Vigilance`) or education (e.g., `Audibility` and `Alchemic`). 
 
-Due to these schools, **certain vanilla enchantments have been made incompatible with other vanilla enchantments**. This is done absolutely minimally to keep the game vanilla-friendly whilst consistent with these rules. The only instance of this is `Fire Protection` and `Frost Walker`, which are now incompatible.  
-
 **Users are encouraged to read the documentation below as well as the enchantment JSON files to familiarize themselves with the various compatibilites.**
 
 | Name | Summary | Primary Item(s) | Max Level | Incompatible With | Treasure? | Found In |

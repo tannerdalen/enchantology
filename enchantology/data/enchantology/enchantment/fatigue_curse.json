@@ -2,7 +2,7 @@
     "description": "Curse of Fatigue",
     "supported_items": "#minecraft:enchantable/armor",
     "slots": ["head"],
-    "weight": 10,
+    "weight": 1,
     "anvil_cost": 8,
     "min_cost": {
         "base": 25,

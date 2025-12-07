@@ -1,8 +1,8 @@
 {
   "description": "Escalation",
   "supported_items": "#minecraft:enchantable/leg_armor",
-  "weight": 2,
-  "max_level": 2,
+  "weight": 1,
+  "max_level": 8,
   "min_cost": {
     "base": 25,
     "per_level_above_first": 25

@@ -1,17 +1,17 @@
 {
   "description": "Dexterity",
   "supported_items": "#enchantology:dexterity",
-  "weight": 2,
+  "weight": 5,
   "max_level": 3,
   "min_cost": {
-    "base": 15,
-    "per_level_above_first": 9
+    "base": 5,
+    "per_level_above_first": 8
   },
   "max_cost": {
-    "base": 65,
-    "per_level_above_first": 9
+    "base": 25,
+    "per_level_above_first": 8
   },
-  "anvil_cost": 4,
+  "anvil_cost": 2,
   "slots": [
     "hand"
   ],

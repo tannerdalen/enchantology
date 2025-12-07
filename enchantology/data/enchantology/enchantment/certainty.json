@@ -33,11 +33,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                    "type": [
-                          "minecraft:ender_dragon",
-                          "minecraft:enderman",
-                          "minecraft:endermite"
-                        ]
+                    "type": "#enchantology:ender"
                       }
                     }
         }]

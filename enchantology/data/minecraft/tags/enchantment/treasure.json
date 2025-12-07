@@ -12,14 +12,19 @@
         "enchantology:extension",
         "enchantology:frost_trotter",
         "enchantology:gnashing",
+        "enchantology:heartguard",
         "enchantology:leeching",
         "enchantology:magnetic",
+        "enchantology:salubrity",
+        "enchantology:sand_strider",
         "enchantology:shattering",
         "enchantology:shrieking",
         "enchantology:subjugation",
         "enchantology:transposition",
         "enchantology:quarrying",
         "enchantology:vitality",
+        "enchantology:windshear",
+        "enchantology:windshield",
         "enchantology:withering"
     ]
 }

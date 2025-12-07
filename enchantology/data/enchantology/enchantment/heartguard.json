@@ -1,0 +1,101 @@
+{
+    "description": "Heartguard",
+    "supported_items": "minecraft:shield",
+    "exclusive_set": "#enchantology:exclusive_set/shield",
+    "primary_items": "minecraft:shield",
+    "slots": ["hand"],
+    "weight": 2,
+    "anvil_cost": 8,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 25
+    },
+    "max_level": 1,
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantology:heartguard/init_score"
+                },
+                "requirements": {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "heartguardCooldown": {
+                                "min": -2147483648,
+                                "max": 2147483647
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_mob_effect",
+                            "to_apply": "minecraft:regeneration",
+                            "min_amplifier": 0,
+                            "max_amplifier": 0,
+                            "min_duration": 30,
+                            "max_duration": 30
+                        },
+                        {
+                            "type": "minecraft:apply_mob_effect",
+                            "to_apply": "minecraft:absorption",
+                            "min_amplifier": 0,
+                            "max_amplifier": 0,
+                            "min_duration": 5,
+                            "max_duration": 5
+                        },
+                        {
+                            "type": "minecraft:play_sound",
+                            "sound": "minecraft:entity.iron_golem.damage",
+                            "pitch": 0.7,
+                            "volume": 1
+                        },
+                        {
+                            "type": "minecraft:play_sound",
+                            "sound": "minecraft:entity.armadillo.hurt_reduced",
+                            "pitch": 0.9,
+                            "volume": 1
+                        },
+                        {
+                            "type": "minecraft:play_sound",
+                            "sound": "minecraft:block.bell.resonate",
+                            "pitch": 2,
+                            "volume": 1
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantology:heartguard/spawn_particles"
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantology:heartguard/start_cooldown"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "heartguardCooldown": 0,
+                        "Health": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

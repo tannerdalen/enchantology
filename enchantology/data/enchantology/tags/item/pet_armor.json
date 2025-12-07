@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#enchantology:horse_armor",
+        "minecraft:wolf_armor"
+    ]
+  }

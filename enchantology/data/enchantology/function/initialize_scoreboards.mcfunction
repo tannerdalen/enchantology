@@ -3,9 +3,11 @@
 # Accountacy scoreboards
 scoreboard objectives add entityID dummy
 scoreboard objectives add time_since_death custom:time_since_death
+scoreboard objectives add Health health
 
 # Enchantment-specific scoreboards
 scoreboard objectives add bleedDuration dummy
+scoreboard objectives add heartguardCooldown dummy
 scoreboard objectives add cushioningActiveTimer dummy
 scoreboard objectives add fix_quarrying_iterator dummy
 scoreboard objectives add hasNoAI dummy

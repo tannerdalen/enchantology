@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+      "#enchantology:exclusive_set/incompatible_with_life",
+      "minecraft:protection"
+    ]
+  }

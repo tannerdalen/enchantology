@@ -3,7 +3,7 @@
     "supported_items": "#minecraft:enchantable/armor",
     "exclusive_set": "#enchantology:exclusive_set/incompatible_with_death",
     "slots": ["armor"],
-    "weight": 10,
+    "weight": 1,
     "anvil_cost": 8,
     "min_cost": {
         "base": 25,

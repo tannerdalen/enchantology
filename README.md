@@ -1,12 +1,54 @@
-# enchantology (v1.4.0)
+# enchantology (v1.5.0)
 
-A data pack with 47 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.10.
+A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.10.
 
 ![](gallery/explosive_demo.gif)
 ![](gallery/cursed_leggings.png)
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.5.0. December 7th, 2025 (The Defense Update)
+
++ 7 New Enchantments (The Defense Update):
+    + **Heartguard** (Shield)
+        + Near-death experiences grant you regeneration and absorption for a short duration. Specifically, if the enchanted entity falls below 2 hearts, it is granted Absorption I (two hearts) and Regeneration I. This enchantment has a 60 second cooldown.
+        + Dropped by `Ravager` (20% chance) and found in Woodland Mansions.
+    + **Magic Protection** (Armor)
+        + Reduced damage taken from magical sources including Dragon Breath, Poison, Potion of Instant Damage, Evoker fangs, Guardian beams, and ender pearl teleportation.
+        + Incompatible with `Protection`, `Blast Protection`, `Fire Protection`, and `Projectile Protection`.
+        + Found on random loot, enchanting table, and fishing.
+    + **Salubrity** (Armor)
+        + Increase maximum health by half a heart per level (max 4 hearts if all armor enchanted with Salubrity II).
+        + Incompatible with `Curse of Agony`, `Curse of Impending Doom`, and `Protection`, but still compatible with other protection-based enchantments like `Blast Protection`, `Fire Protection`, and `Projectile Protection`. 
+        + Found by Sniffer digging (6% chance).
+    + **Sand Strider** (Boots)
+        + Increased movement on sand, red sand, and suspicious sand, but slowly drains durability in the process.
+        + Incompatible with `Depth Strider`.
+        + Found in Desert Pyramids.
+    + **Steadfast** (Horse Armor, Wolf Armor)
+        + Additional damage reduction for horses and wolves.
+        + Found by fishing, random loot, etc.
+    + **Windshear** (Elytra)
+        + Your wings slice into your opponents, dealing damage when gliding at high speeds.
+        + Incompatible with `Windshield`.
+        + Found in End Cities.
+    + **Windshield** (Elytra)
+        + Additional damage reduction (half that of Protection) for Elytras.
+        + Incompatible with `Windshear`.
+        + Found in End Cities.
++ Enchantment changes:
+    + Audilibity
+        + Enchanted player no longer glowing when sneaking.
+        + Increased drop chance in ancient cities.
+    + Certainty
+        + Fixed bug where shulkers were not affected by enchantment.
+    + Magnetic
+        + Now compatible with copper armor (helmet, chestplate, leggings, and boots) and all lightning rod oxidation states.
++ Technical changes:
+    + Fixed bug where vanilla enchantments `Fire Protection` and `Frost Walker` were made incompatible.
+    + Updated `weight` and `anvil_cost` of 34 enchantments, which impact their probability and level cost, to better align with vanilla enchantments.
+    + Tooltip order for every enchantment created. Vanilla enchantment tooltip order is unaffected.
 
 ### v1.4.0. November 3rd, 2025 (The Bow Update)
 

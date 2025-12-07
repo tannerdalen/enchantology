@@ -1,16 +1,28 @@
 {
     "description": "Magnetic",
-    "supported_items": "minecraft:lightning_rod",
-    "slots": ["hand"],
-    "weight": 10,
-    "anvil_cost": 8,
+    "supported_items": ["minecraft:lightning_rod",
+                        "minecraft:exposed_lightning_rod",
+                        "minecraft:weathered_lightning_rod",
+                        "minecraft:oxidized_lightning_rod",
+                        "minecraft:waxed_lightning_rod",
+                        "minecraft:waxed_exposed_lightning_rod",
+                        "minecraft:waxed_weathered_lightning_rod",
+                        "minecraft:waxed_oxidized_lightning_rod",
+                        "minecraft:copper_helmet",
+                        "minecraft:copper_chestplate",
+                        "minecraft:copper_leggings",
+                        "minecraft:copper_boots"
+                        ],
+    "slots": ["hand", "armor"],
+    "weight": 1,
+    "anvil_cost": 1,
     "max_cost": {
-    "base": 51,
-    "per_level_above_first": 10
+        "base": 3,
+        "per_level_above_first": 8
     },
     "min_cost": {
-        "base": 1,
-        "per_level_above_first": 10
+        "base": 30,
+        "per_level_above_first": 8
     },
     "max_level": 1,
     "effects": {

@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 8,
+  "anvil_cost": 4,
   "description": "Sand Strider",
   "effects": {
     "minecraft:location_changed": [
@@ -249,5 +249,5 @@
   ],
   "supported_items": "#minecraft:enchantable/foot_armor",
   "exclusive_set": "#enchantology:exclusive_set/striders",
-  "weight": 1
+  "weight": 2
 }

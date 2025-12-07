@@ -1,17 +1,17 @@
 {
   "description": "Extension",
   "supported_items": "minecraft:breeze_rod",
-  "weight": 2,
+  "weight": 1,
   "max_level": 3,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 9
+    "base": 3,
+    "per_level_above_first": 8
   },
   "max_cost": {
-    "base": 20,
+    "base": 30,
     "per_level_above_first": 9
   },
-  "anvil_cost": 4,
+  "anvil_cost": 1,
   "slots": [
     "hand"
   ],

@@ -3,15 +3,15 @@
     "supported_items": "#minecraft:enchantable/armor",
     "exclusive_set": "#enchantology:exclusive_set/salubrity",
     "slots": ["armor"],
-    "weight": 2,
-    "anvil_cost": 1,
+    "weight": 1,
+    "anvil_cost": 8,
     "max_cost": {
-    "base": 12,
-    "per_level_above_first": 11
+        "base": 75,
+        "per_level_above_first": 25
     },
     "min_cost": {
-        "base": 1,
-        "per_level_above_first": 11
+        "base": 25,
+        "per_level_above_first": 25
     },
     "max_level": 2,
     "effects":{

@@ -3,19 +3,19 @@
   "description": "Precision",
   "exclusive_set": [],
   "max_cost": {
-    "base": 50,
-    "per_level_above_first": 0
+    "base": 1,
+    "per_level_above_first": 5
   },
   "max_level": 3,
   "min_cost": {
-    "base": 1,
-    "per_level_above_first": 10
+    "base": 16,
+    "per_level_above_first": 5
   },
   "slots": [
     "mainhand"
   ],
   "supported_items": "minecraft:crossbow",
-  "weight": 10,
+  "weight": 5,
   "effects": {
     "minecraft:projectile_spread": [
         {

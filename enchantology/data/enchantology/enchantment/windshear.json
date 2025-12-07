@@ -3,15 +3,15 @@
     "supported_items": "minecraft:elytra",
     "exclusive_set": "#enchantology:exclusive_set/elytra",
     "slots": ["armor"],
-    "weight": 5,
-    "anvil_cost": 2,
+    "weight": 10,
+    "anvil_cost": 1,
     "min_cost": {
-        "base": 5,
-        "per_level_above_first": 8
+        "base": 1,
+        "per_level_above_first": 11
     },
     "max_cost": {
-        "base": 25,
-        "per_level_above_first": 8
+        "base": 21,
+        "per_level_above_first": 11
     },
     "max_level": 5,
     "effects":{

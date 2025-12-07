@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 1,
+  "anvil_cost": 2,
   "description": "Windshield",
   "effects": {
     "minecraft:damage_protection": [
@@ -29,16 +29,16 @@
   "exclusive_set": "#enchantology:exclusive_set/elytra",
   "supported_items": "minecraft:elytra",
   "max_cost": {
-    "base": 12,
-    "per_level_above_first": 11
+    "base": 9,
+    "per_level_above_first": 6
   },
   "max_level": 4,
   "min_cost": {
-    "base": 1,
-    "per_level_above_first": 11
+    "base": 5,
+    "per_level_above_first": 6
   },
   "slots": [
     "armor"
   ],
-  "weight": 10
+  "weight": 5
 }

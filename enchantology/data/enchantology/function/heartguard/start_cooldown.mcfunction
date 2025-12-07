@@ -1,2 +1,2 @@
 # Initialize cooldown amount of 60 seconds (1200 ticks)
-scoreboard players set @s blessingOfUndyingCooldown 1200
+scoreboard players set @s heartguardCooldown 1200

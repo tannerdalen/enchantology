@@ -19,6 +19,25 @@
         "minecraft:tick": [
             {
                 "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantology:heartguard/init_score"
+                },
+                "requirements": {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "heartguardCooldown": {
+                                "min": -2147483648,
+                                "max": 2147483647
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
                     "type": "minecraft:all_of",
                     "effects": [
                         {
@@ -69,18 +88,12 @@
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
-                        "blessingOfUndyingCooldown": 0,
+                        "heartguardCooldown": 0,
                         "Health": {
                             "min": 1,
                             "max": 4
                         }
                     }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantology:heartguard/tick_cooldown"
                 }
             }
         ]

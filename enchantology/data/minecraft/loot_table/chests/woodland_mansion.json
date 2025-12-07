@@ -65,11 +65,12 @@
             "functions": [
               {
                 "function": "minecraft:enchant_randomly",
-                "options": "enchantology:leeching"
+                "options": ["enchantology:leeching",
+                            "enchantology:heartguard"]
               }
             ],
             "name": "minecraft:book",
-            "weight": 10
+            "weight": 15
           },
           {
             "type": "minecraft:item",

@@ -1,0 +1,18 @@
+{
+    "description": "Luck of the Brew",
+    "supported_items": "#minecraft:head_armor",
+    "exclusive_set": "#enchantology:exclusive_set/education",
+    "primary_items": "#minecraft:enchantable/head_armor",
+    "slots": ["head"],
+    "weight": 2,
+    "anvil_cost": 4,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 41,
+        "per_level_above_first": 0
+    },
+    "max_level": 3
+}

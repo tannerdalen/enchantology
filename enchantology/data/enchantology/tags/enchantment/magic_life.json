@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+      "enchantology:heartguard",
       "enchantology:leeching",
       "enchantology:salubrity",
       "enchantology:vitality"

@@ -36,6 +36,7 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Gnashing | Wolf attacks do increased damage. | Wolf Armor | V |  | TRUE | Trail Ruins |
 | Gravity | Arrows are weighted and send your airborne victim plummeting. | Bow, Crossbow | I | Discordant, Punch, Shrieking, Transposition | FALSE | |
 | Harvesting | Increased number of adjacent crops are broken around the origin. | Hoe | III |  | FALSE | |
+| Heartguard | Near-death experiences grant additional regeneration and absorption for a short duration. | Shield | I | | TRUE | Ravagers, Woodland Mansion | 
 | Immolation | Can directly ignite players/entities. | Flint & Steel | I | | TRUE | Ruined Portal |
 | Intuition | Drawing your bow blinds you, but your arrows do 1.5x damage when outside your vision (5 blocks). | Bow | I | Shrieking | TRUE | Strong Library, Trial Chamber |
 | Ironclad | You are made of sterner stuff. Take reduced knockback. | Chestplate | III |  | FALSE | |

@@ -43,6 +43,7 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Lacerating | Increased damage for shears. | Shears | V | | FALSE | |
 | Leeching | Siphons the life from your victim. | Sharp Tools | II |  Withering | TRUE | Woodland Mansion |
 | Magnetic | Attract dropped items from a greater distance. | Lightning Rod, Copper Armor | I | | TRUE | Trial Chamber |
+| Magic Protection | Protection against magic damage (e.g,. Poison, Evoker fangs, ender pearls, etc.). | Armor | IV | Protection, Blast Protection, Fire Protection, Blast Protection | FALSE | | 
 | Oppression | Inflict slowness on your victim. | Mace | III |  | FALSE | |
 | Precision | Decrease projectile spread if paired with Multishot. | Crossbow | III | | FALSE | Pillager Outpost |
 | Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II. | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |

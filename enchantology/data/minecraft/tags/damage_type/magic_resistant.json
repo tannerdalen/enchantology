@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dragon_breath",
+        "minecraft:ender_pearl",
+        "minecraft:indirect_magic",
+        "minecraft:magic",
+        "minecraft:wind_charge"
+    ]
+}

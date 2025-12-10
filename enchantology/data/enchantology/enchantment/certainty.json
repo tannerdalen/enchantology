@@ -1,7 +1,7 @@
 {
     "description": "Certainty",
-    "supported_items": "#minecraft:enchantable/weapon",
-    "primary_items": "#minecraft:enchantable/sword",
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "primary_items": "#minecraft:swords",
     "exclusive_set": "#enchantology:exclusive_set/damage",
     "slots": ["mainhand"],
     "weight": 5,

@@ -1,12 +1,31 @@
-# enchantology (v1.5.0)
+# enchantology (v1.5.1)
 
-A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.10.
+A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.11.
 
 ![](gallery/explosive_demo.gif)
 ![](gallery/cursed_leggings.png)
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.5.1. December 9th, 2025
+
++ Enchantology updated to Minecraft 1.21.11.
+
++ Enchantment changes:
+    + The `Spear` can now utilize the following enchantments:
+        + `Brutality`, `Certainty`, `Divinity`, `Leeching`, `Subjugation`, `Vigilance`, and `Vitality`.
+    + Curse of Revile
+        + Now affects `Nautilus`.
+        + If curse is unequipped or affected mob is out of range, affected mob remains hostile for predescribed amount of time (mob-dependent). For example, if a player strikes a bee, the bee remains angry for 25 seconds. If you approach a bee while wearing `Curse of Revile`, they will remain hostile to you until you remove the enchantment or leave the vicinity, at which point they will remain hostile for 25 seconds longer.
++ Technical changes:
+    + Fixed bug where `Certainty`, `Divinity`, `Leeching`, `Subjugation`, `Vigilance`, and `Vitality` were mistakenly applicable with the Mace.
+    + Fixed the following loot tables:
+        + `village_snowy_house` was missing bundles.
+        + `end_city_treasure` and `nether bridge` were missing copper horse armor.
+        + `jungle_temple` was missing leather.
+        + `ruined_portal` was missing lodestone.
+        + `woodland_mansion` was missing resin clump.
 
 ### v1.5.0. December 7th, 2025 (The Defense Update)
 

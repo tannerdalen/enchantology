@@ -10,7 +10,7 @@ In general, enchantments of a certain "school" are compatible with each other an
 |:-----|:-------:|:---------------:|:---------:|:-----------------:|:---------:|:--------:|
 | Alchemic | Potions have a 30% chance to not be consumed when drank. | Helmet | I | Audibility | TRUE | Trial Chamber, Witch |
 | Audibility | You've honed your hearing. Hold sneak to reveal nearby mobs. | Helmet | I | Alchemic | TRUE | Ancient City |
-| Brutality | Apply bleed damage to victim. | Axes, Shears | I | | FALSE | |
+| Brutality | Apply bleed damage to victim. | Axes, Shears, Spears | I | | FALSE | |
 | Butchery | You carve items from injured mobs. You tear mutton from sheep, raw pork from pigs, and raw beef from cows. You rip flesh from zombies and bone meal from skeletons. You carve iron from iron golems and ender pearls from enderman. | Shears | I | | FALSE | |
 | Certainty | Increased damage to ender mobs. | Axes, Spears, Swords | V | Bane of Arthropods, Breach, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
 | Curse of Agony | You are in agonizing pain. Total health is reduced by 1 heart per armor piece with this curse equipped. | Armor | I | Salubrity | FALSE | |

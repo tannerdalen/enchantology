@@ -1,9 +1,10 @@
 ### Loads all the scoreboards used by enchantology
 
 # Accountacy scoreboards
+scoreboard objectives add gametime dummy
 scoreboard objectives add entityID dummy
-scoreboard objectives add time_since_death custom:time_since_death
 scoreboard objectives add Health health
+scoreboard objectives add time_since_death custom:time_since_death
 
 # Enchantment-specific scoreboards
 scoreboard objectives add bleedDuration dummy

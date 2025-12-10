@@ -1,15 +1,3 @@
-### Mobs might already be angry, or become angry for random reasons, outside of this enchantment.
-### To avoid this, the isReviled scoreboard is used to avoid removing anger from a mob
-### that should be angry for other reasons.
-
-execute as @e[type=#enchantology:revile,distance=..16] run scoreboard players set @s isReviled 1
-
-### Make mobs angry at nearest entity with revile curse
-execute as @e[scores={isReviled=1}] run data modify entity @s AngryAt set from entity @n[predicate=enchantology:revile_check_for_enchantment] UUID
-execute as @e[scores={isReviled=1}] run data modify entity @s AngerTime set value 20
-
-### Remove anger and revile from mobs outside radius
-# First 'execute' below throws error in spyglassmc(1.21.4) but it works just fine in game
-execute as @e[distance=16..,scores={isReviled=1}] run data modify entity @s AngryAt set value []
-execute as @e[distance=16..,scores={isReviled=1}] run data modify entity @s AngerTime set value 0
-execute as @e[distance=16..,scores={isReviled=1}] run scoreboard players reset @s isReviled
+# Make mobs in radius aggro at enchanted entity, which sets some default "anger time" at each tick.
+# If mob is out of radius or enchantment is unequipped, "anger time" will be exhausted as normal
+execute as @e[distance=..16] run data modify entity @s angry_at set from entity @n[predicate=enchantology:revile_check_for_enchantment] UUID

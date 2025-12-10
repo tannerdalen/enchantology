@@ -25,7 +25,7 @@ In general, enchantments of a certain "school" are compatible with each other an
 | Curse of Revile | Neutral mobs have made up their minds and attack you immediately. | Armor | I | | FALSE | |
 | Curse of Uncertainty | You are not confidently tethered to the earth. Periocally teleport nearby. | Armor | I | | FALSE | |
 Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall damage for those who land within it. | Bow, Crossbow | I | Discordant, Shrieking, Transposition | TRUE | End City
-| Dexterity | Increased swing speed for enchanted tools. | Tools | III | | TRUE | |
+| Dexterity | Increased swing speed for enchanted tools. | Axes, Flint and Steel, Mace, Shears, Spears, Swords | III | | TRUE | |
 | Discordant | Victims struck by arrows from this enchanted bow teleport randomly nearby. | Bow, Crossbow | I | Cushioning, Gravity, Shrieking | TRUE | End City |
 | Divinity | Increase damage to nether mobs. | Axes, Spears, Swords | V | Bane of Arthropods, Breach, Certainty, Density, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
 | Escalation | Increased number of vertical blocks that can be stepped over without jumping 0.5 blocks per level. | Leggings | II | | TRUE | Jungle Temple |

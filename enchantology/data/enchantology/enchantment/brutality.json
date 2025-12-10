@@ -1,12 +1,6 @@
 {
     "description": "Brutality",
-    "supported_items": ["minecraft:shears",
-                        "minecraft:wooden_axe",
-                        "minecraft:stone_axe",
-                        "minecraft:iron_axe",
-                        "minecraft:golden_axe",
-                        "minecraft:diamond_axe",
-                        "minecraft:netherite_axe"],
+    "supported_items": "#enchantology:brutality",
     "slots": ["mainhand"],
     "weight": 2,
     "anvil_cost": 4,

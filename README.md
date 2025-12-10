@@ -17,7 +17,7 @@ A data pack with 54 new enchantments spread across the world! Each enchantment c
         + `Brutality`, `Certainty`, `Divinity`, `Leeching`, `Subjugation`, `Vigilance`, and `Vitality`.
     + Curse of Revile
         + Now affects `Nautilus`.
-        + If curse is unequipped or affected mob is out of range, affected mob remains hostile for predescribed amount of time (mob-dependent). For example, if a player strikes a bee, the bee remains angry for 25 seconds. If you approach a bee while wearing `Curse of Revile`, they will remain hostile to you until you remove the enchantment or leave the vicinity, at which point they will remain hostile for 25 seconds longer.
+        + If curse is unequipped or affected mob is out of range, affected mob remains hostile for prescribed amount of time (mob-dependent). For example, if a player strikes a bee, the bee remains angry for 25 seconds. If you approach a bee while wearing `Curse of Revile`, they will remain hostile to you until you remove the enchantment or leave the vicinity, at which point they will remain hostile for 25 seconds longer.
 + Technical changes:
     + Fixed bug where `Certainty`, `Divinity`, `Leeching`, `Subjugation`, `Vigilance`, and `Vitality` were mistakenly applicable with the Mace.
     + Fixed the following loot tables:

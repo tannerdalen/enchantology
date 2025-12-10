@@ -1,6 +1,6 @@
 {
     "description": "Withering",
-    "supported_items": "#minecraft:enchantable/weapon",
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
     "exclusive_set": "#enchantology:exclusive_set/incompatible_with_death",
     "slots": ["mainhand"],
     "weight": 2,

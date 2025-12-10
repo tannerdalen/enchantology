@@ -12,7 +12,7 @@ In general, enchantments of a certain "school" are compatible with each other an
 | Audibility | You've honed your hearing. Hold sneak to reveal nearby mobs. | Helmet | I | Alchemic | TRUE | Ancient City |
 | Brutality | Apply bleed damage to victim. | Axes, Shears | I | | FALSE | |
 | Butchery | You carve items from injured mobs. You tear mutton from sheep, raw pork from pigs, and raw beef from cows. You rip flesh from zombies and bone meal from skeletons. You carve iron from iron golems and ender pearls from enderman. | Shears | I | | FALSE | |
-| Certainty | Increased damage to ender mobs. | Sharp Weapons | V | Bane of Arthropods, Breach, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
+| Certainty | Increased damage to ender mobs. | Axes, Spears, Swords | V | Bane of Arthropods, Breach, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
 | Curse of Agony | You are in agonizing pain. Total health is reduced by 1 heart per armor piece with this curse equipped. | Armor | I | Salubrity | FALSE | |
 | Curse of Combustion | You are hot to the touch. Ignites any mob within 1 block of your position. | Armor | I | Frost Walker | FALSE | |
 | Curse of Contraction | You have been shrunk. Your size, speed, attack damage, jump height, and entity/block interaction range are reduced by 12.5% per armor piece with this curse equipped. | Armor | I | Curse of Uncertainty | FALSE | |
@@ -27,7 +27,7 @@ In general, enchantments of a certain "school" are compatible with each other an
 Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall damage for those who land within it. | Bow, Crossbow | I | Discordant, Shrieking, Transposition | TRUE | End City
 | Dexterity | Increased swing speed for enchanted tools. | Tools | III | | TRUE | |
 | Discordant | Victims struck by arrows from this enchanted bow teleport randomly nearby. | Bow, Crossbow | I | Cushioning, Gravity, Shrieking | TRUE | End City |
-| Divinity | Increase damage to nether mobs. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
+| Divinity | Increase damage to nether mobs. | Axes, Spears, Swords | V | Bane of Arthropods, Breach, Certainty, Density, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |
 | Escalation | Increased number of vertical blocks that can be stepped over without jumping 0.5 blocks per level. | Leggings | II | | TRUE | Jungle Temple |
 | Explosive | Crossbow arrows explode on contact. | Crossbow | I | Thunderbolting | TRUE | Pillager Outpost |
 | Extension | Increased block interaction range. | Breeze Rod | III | | TRUE | Trial Chamber |
@@ -41,24 +41,24 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Intuition | Drawing your bow blinds you, but your arrows do 1.5x damage when outside your vision (5 blocks). | Bow | I | Shrieking | TRUE | Strong Library, Trial Chamber |
 | Ironclad | You are made of sterner stuff. Take reduced knockback. | Chestplate | III |  | FALSE | |
 | Lacerating | Increased damage for shears. | Shears | V | | FALSE | |
-| Leeching | Siphons the life from your victim. | Sharp Tools | II |  Withering | TRUE | Woodland Mansion |
+| Leeching | Siphons the life from your victim. | Axes, Spears, Swords | II |  Withering | TRUE | Woodland Mansion |
 | Magnetic | Attract dropped items from a greater distance. | Lightning Rod, Copper Armor | I | | TRUE | Trial Chamber |
 | Magic Protection | Protection against magic damage (e.g,. Poison, Evoker fangs, ender pearls, etc.). | Armor | IV | Protection, Blast Protection, Fire Protection, Blast Protection | FALSE | | 
 | Oppression | Inflict slowness on your victim. | Mace | III |  | FALSE | |
 | Precision | Decrease projectile spread if paired with Multishot. | Crossbow | III | | FALSE | Pillager Outpost |
 | Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II. | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |
-| Reaching | Increased entity interaction range. | Sharp Tools, Trident, Shears | III | Sweeping Edge | FALSE | |
+| Reaching | Increased entity interaction range. |  Axes, Swords, Trident, Shears | III | Sweeping Edge | FALSE | |
 | Salubrity | Increased maximum health (maximum 4 hearts). | Armor | II | Curse of Agony, Curse of Impending Doom, Protection | TRUE | Sniffer Digging |
 | Sand Strider | Increased movement on sand, red sand, and suspicious sand, but slowly drains durability in the process. | Boots | III | Depth Strider | TRUE | Desert Pyramid
 | Shattering | Reduce armor effectiveness of your victim. | Axes | III |  | TRUE | |
 | Shrieking | Your arrows become pure energy, releasing a instant and powerful sonic charge. | Bow | I | Cushioning, Discordant, Flame, Gravity, Intuition, Power, Punch | TRUE | Ancient City |
 | Steadfast | Protection for horse and wolf armor. | Horse Armor, Wolf Armor | IV | | FALSE | |
-| Subjugation | You are cruel. Increased damage to villagers, golems, and sniffers. | Sharp Weapons | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Vigilance, Vitality | TRUE | Pillager Outpost, Woodland Mansion |
+| Subjugation | You are cruel. Increased damage to villagers, golems, and sniffers. | Axes, Spears, Swords | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Vigilance, Vitality | TRUE | Pillager Outpost, Woodland Mansion |
 | Thunderbolting | Lightning strikes upon hitting your opponent or a lightning rod during a thunderstorm. | Crossbow | I | Explosive | False | Underwater Ruins |
 | Transposition | You and your victim swap places. | Bow, Crossbow | I | Cushioning, Gravity, Shrieking | TRUE | End City |
-| Vigilance | You are just. Increased damage to illagers, evokers, illusioners, evokers, etc. | Sharp Tools | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vitality | FALSE | | 
-| Vitality | Your strike replenishes life to your victim's bones. Substantial increase (greater than Smite) to damage dealt exclusively to Wither and Wither Skeletons. | Sharp Tools | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Withering | TRUE | Bastion Treasure Chest |
+| Vigilance | You are just. Increased damage to illagers, evokers, illusioners, evokers, etc. | Axes, Spears, Swords | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vitality | FALSE | | 
+| Vitality | Your strike replenishes life to your victim's bones. Substantial increase (greater than Smite) to damage dealt exclusively to Wither and Wither Skeletons. | Axes, Spears, Swords | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Withering | TRUE | Bastion Treasure Chest |
 | Will of Animus | Overwhelm your victim with deafening power. Striking entites with this enchantment disables their AI! | Arms Up Pottery Shard | I | | N/A | Commands Only. |
 | Windshear | Your wings slice into your opponents, dealing damage when gliding at high speeds. | Elytra | V | Windshield | TRUE | End City |
 | Windshield | Additional damage reduction (half that of Protection) for Elytras. | Elytra | IV | Windshear | TRUE | End City |
-| Withering | Inflict the wither debuff on your victims. | Sharp Tools | II | Leeching, Vitality | TRUE | Nether Fortress |
+| Withering | Inflict the wither debuff on your victims. | Axes, Spears, Swords | II | Leeching, Vitality | TRUE | Nether Fortress |

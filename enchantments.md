@@ -38,7 +38,7 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Harvesting | Increased number of adjacent crops are broken around the origin. | Hoe | III |  | FALSE | |
 | Heartguard | Near-death experiences grant additional regeneration and absorption for a short duration. | Shield | I | | TRUE | Ravagers, Woodland Mansion | 
 | Immolation | Can directly ignite players/entities. | Flint & Steel | I | | TRUE | Ruined Portal |
-| Intuition | Drawing your bow blinds you, but your arrows do 1.5x damage when outside your vision (5 blocks). | Bow | I | Shrieking | TRUE | Strong Library, Trial Chamber |
+| Intuition | Drawing your bow blinds you, but your arrows do 1.5x damage when outside your vision (5 blocks). | Bow | I | Shrieking | TRUE | Stronghold Library, Trial Chamber |
 | Ironclad | You are made of sterner stuff. Take reduced knockback. | Chestplate | III |  | FALSE | |
 | Lacerating | Increased damage for shears. | Shears | V | | FALSE | |
 | Leeching | Siphons the life from your victim. | Axes, Spears, Swords | II |  Withering | TRUE | Woodland Mansion |

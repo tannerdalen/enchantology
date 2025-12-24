@@ -115,17 +115,6 @@
           ],
           "name": "minecraft:coal",
           "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "enchant_randomly",
-              "options": "enchantology:frost_trotter"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 1
         }
       ],
       "rolls": {
@@ -146,7 +135,19 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bundle"
+          "name": "minecraft:bundle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "options": "enchantology:frost_trotter"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 1
         },
         {
           "type": "minecraft:empty",

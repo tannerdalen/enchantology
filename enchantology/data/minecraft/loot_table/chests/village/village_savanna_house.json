@@ -98,16 +98,6 @@
           "name": "minecraft:saddle"
         },
         {
-          "type": "item",
-          "name": "minecraft:book",
-          "functions": [
-            {
-                "function": "enchant_randomly",
-                "options": "enchantology:galloping"
-            }
-          ]
-        },
-        {
           "type": "minecraft:item",
           "functions": [
             {
@@ -146,6 +136,16 @@
             }
           ],
           "name": "minecraft:bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+                "function": "enchant_randomly",
+                "options": "enchantology:galloping"
+            }
+          ]
         },
         {
           "type": "minecraft:empty",

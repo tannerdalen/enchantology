@@ -1,4 +1,4 @@
-# enchantology (v1.5.1)
+# enchantology (v1.5.2)
 
 A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.11.
 
@@ -7,6 +7,28 @@ A data pack with 54 new enchantments spread across the world! Each enchantment c
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.5.2. December 30th, 2025
+
++ Enchantment changes:
+    + Explosive
+        + Damage on direct-hit increased from `2.0` to `4.0`.
+    + Shattering
+        + Armor effectiveness reduction decreased from `0.20` to `0.10` per level, max level 3.
+        + This change is to keep the vanilla Mace enchantment `Breach` competitive and worthwhile (`Breach` reduces armor effectiveness by `0.15` per level, max level 4).
+    + Shrieking
+        + Bow must now be fully charged for enchantment to activate. If not fully charged, the bow misfires.
+        + Bow charge-up sound removed
+    + Steadfast
+        + Now compatible with `Nautilus Armor`.
++ Technical changes:
+    + Explosive
+        + Fixed bug where damage was not dealt if victim was hit directly.
+        + Fixed bug where explosions would occur if crossbow was used as a melee weapon.
+    + Frost Trotter
+        + Increased loot chance in snowy villages.
+    + Galloping
+        + Increased loot chance in savanna villages.
 
 ### v1.5.1. December 9th, 2025
 

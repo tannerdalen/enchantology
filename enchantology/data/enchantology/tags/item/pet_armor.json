@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "#enchantology:horse_armor",
+        "#enchantology:nautilus_armor",
         "minecraft:wolf_armor"
     ]
   }

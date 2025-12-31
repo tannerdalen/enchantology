@@ -52,7 +52,7 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Sand Strider | Increased movement on sand, red sand, and suspicious sand, but slowly drains durability in the process. | Boots | III | Depth Strider | TRUE | Desert Pyramid
 | Shattering | Reduce armor effectiveness of your victim. | Axes | III |  | TRUE | |
 | Shrieking | Your arrows become pure energy, releasing a instant and powerful sonic charge. | Bow | I | Cushioning, Discordant, Flame, Gravity, Intuition, Power, Punch | TRUE | Ancient City |
-| Steadfast | Protection for horse and wolf armor. | Horse Armor, Wolf Armor | IV | | FALSE | |
+| Steadfast | Protection for horse and wolf armor. | Horse Armor, Nautilus Armor, Wolf Armor | IV | | FALSE | |
 | Subjugation | You are cruel. Increased damage to villagers, golems, and sniffers. | Axes, Spears, Swords | V | Bane of Arthropods, Breach, Certainty, Density, Divinity, Sharpness, Smite, Vigilance, Vitality | TRUE | Pillager Outpost, Woodland Mansion |
 | Thunderbolting | Lightning strikes upon hitting your opponent or a lightning rod during a thunderstorm. | Crossbow | I | Explosive | False | Underwater Ruins |
 | Transposition | You and your victim swap places. | Bow, Crossbow | I | Cushioning, Gravity, Shrieking | TRUE | End City |

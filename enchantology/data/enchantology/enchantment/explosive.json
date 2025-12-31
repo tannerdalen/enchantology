@@ -22,7 +22,7 @@
         "effect": {
           "type": "minecraft:explode",
           "damage_type": "minecraft:explosion",
-          "radius": 1.5,
+          "radius": 3.0,
           "block_interaction": "none",
           "small_particle": {
             "type": "minecraft:explosion_emitter"
@@ -34,6 +34,28 @@
           "knockback_multiplier": 2,
           "attribute_to_user": true,
           "create_fire": false
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 5.0
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
         }
       }
     ],
@@ -47,7 +69,7 @@
             {
               "type": "minecraft:explode",
               "damage_type": "minecraft:explosion",
-              "radius": 1.5,
+              "radius": 3.0,
               "block_interaction": "none",
               "small_particle": {
                 "type": "minecraft:explosion_emitter"
@@ -59,14 +81,15 @@
               "knockback_multiplier": 2,
               "attribute_to_user": true,
               "create_fire": false
-            },
-            {
-              "type": "minecraft:damage_entity",
-              "damage_type": "minecraft:explosion",
-              "min_damage": 2.5,
-              "max_damage": 2.5
             }
           ]
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
         }
       }
     ]

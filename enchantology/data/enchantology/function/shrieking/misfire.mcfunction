@@ -1,0 +1,2 @@
+### Kill arrow
+kill @s

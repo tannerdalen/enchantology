@@ -24,7 +24,62 @@
             "effect": {
                 "type": "minecraft:run_function",
                 "function": "enchantology:shrieking/init_ray"
+            },
+            "requirements": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": {
+                  "crit": true
+                }
+              }
             }
+        },
+        {
+          "effect": {
+            "type": "minecraft:all_of",
+            "effects": [
+              {
+                "type": "minecraft:run_function",
+                "function": "enchantology:shrieking/misfire"
+              },
+              {
+                "type": "minecraft:spawn_particles",
+                "particle":{
+                    "type": "minecraft:white_smoke"
+                },
+                "horizontal_position": {
+                    "type": "in_bounding_box",
+                    "scale": 2
+                },
+                "vertical_position": {
+                    "type": "in_bounding_box",
+                    "scale": 2
+                },
+                "horizontal_velocity": {
+                    "base": 0
+                },
+                "vertical_velocity": {
+                    "base": 0
+                }
+              },
+              {
+                "type": "minecraft:play_sound",
+                "sound": "block.creaking_heart.break",
+                "pitch": 2,
+                "volume": 1
+              }
+            ]
+          },
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": {
+                "crit": false
+              }
+            }
+          }
         }
     ]
   }

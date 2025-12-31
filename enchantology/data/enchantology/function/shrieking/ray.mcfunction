@@ -1,8 +1,8 @@
-### If you hit air or water, end ray
+### Unless you hit air or water, end ray
 execute unless block ~ ~ ~ minecraft:air unless block ~ ~ ~ minecraft:water run function enchantology:shrieking/hit_block
 
 ### If entity is near ray, damage entity and end ray, AND "explode"
-execute as @e[type=!arrow, type=!item, tag=!shotShriekingArrow, dx=0.4,dy=0.4,dz=0.4] at @s run function enchantology:shrieking/hit_entity
+execute as @e[type=!item, tag=!shotShriekingArrow, dx=0.4,dy=0.4,dz=0.4] at @s run function enchantology:shrieking/hit_entity
 execute if score @s ray_success matches 1 run particle minecraft:explosion ~ ~ ~
 
 ### Play particle every 4 steps

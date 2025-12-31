@@ -18,10 +18,11 @@ A data pack with 54 new enchantments spread across the world! Each enchantment c
         + This change is to keep the vanilla Mace enchantment `Breach` competitive and worthwhile (`Breach` reduces armor effectiveness by `0.15` per level, max level 4).
     + Shrieking
         + Bow must now be fully charged for enchantment to activate. If not fully charged, the bow misfires.
-        + Bow charge-up sound removed
+        + Bow charge-up sound removed.
     + Steadfast
         + Now compatible with `Nautilus Armor`.
 + Technical changes:
+    + Changed pack.mcmeta description.
     + Explosive
         + Fixed bug where damage was not dealt if victim was hit directly.
         + Fixed bug where explosions would occur if crossbow was used as a melee weapon.

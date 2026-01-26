@@ -1,0 +1,51 @@
+{
+    "replace": false,
+    "values": [
+        "deepslate",
+
+        "coal_ore",
+        "copper_ore",
+        "iron_ore",
+        "gold_ore",
+        "lapis_ore",
+        "diamond_ore",
+        "redstone_ore",
+
+        "cobblestone",
+        "cobblestone_slab",
+        "cobblestone_stairs",
+        "cobblestone_wall",
+
+        "mossy_cobblestone",
+        "mossy_cobblestone_slab",
+        "mossy_cobblestone_stairs",
+        "mossy_cobblestone_wall",
+
+        "stone_button",
+        "stone_pressure_plate",
+        "stone_slab",
+        "stone_stairs",
+
+        "stone_bricks",
+        "stone_brick_slab",
+        "stone_brick_stairs",
+        "stone_brick_wall",
+
+        "red_concrete",
+        "blue_concrete",
+        "gray_concrete",
+        "lime_concrete",
+        "pink_concrete",
+        "cyan_concrete",
+        "black_concrete",
+        "brown_concrete",
+        "green_concrete",
+        "white_concrete",
+        "orange_concrete",
+        "purple_concrete",
+        "yellow_concrete",
+        "magenta_concrete",
+        "light_blue_concrete",
+        "light_gray_concrete"
+    ]
+}

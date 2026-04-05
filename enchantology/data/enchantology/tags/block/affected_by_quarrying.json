@@ -16,6 +16,14 @@
         "cobblestone_stairs",
         "cobblestone_wall",
 
+        "infested_cobblestone",
+        "infested_chiseled_stone_bricks",
+        "infested_cracked_stone_bricks",
+        "infested_deepslate",
+        "infested_mossy_stone_bricks",
+        "infested_stone",
+        "infested_stone_bricks",
+
         "mossy_cobblestone",
         "mossy_cobblestone_slab",
         "mossy_cobblestone_stairs",
@@ -30,6 +38,13 @@
         "stone_brick_slab",
         "stone_brick_stairs",
         "stone_brick_wall",
+        "chiseled_stone_bricks",
+        "cracked_stone_bricks",
+
+        "mossy_stone_bricks",
+        "mossy_stone_brick_slab",
+        "mossy_cobblestone_stairs",
+        "mossy_stone_brick_wall",
 
         "red_concrete",
         "blue_concrete",

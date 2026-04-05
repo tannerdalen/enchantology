@@ -1,12 +1,28 @@
-# enchantology (v1.5.2)
+# enchantology (v1.5.3)
 
-A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 1.21.11.
+A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 26.1.1.
 
 ![](gallery/explosive_demo.gif)
 ![](gallery/cursed_leggings.png)
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.5.3. April 5th, 2026
+
++ Enchantology updated to Minecraft 26.1.1.
+    + Still compatible with Minecraft 1.21.11.
+
++ Enchantment changes:
+    + Quarrying
+        + Enchantment now insta-mines significantly more blocks (previously only `deepslate`):
+             All `stone ore` varieties (`iron ore`, `coal ore`, etc.)
+            + All `cobblestone` varieties (`cobblestone`, `cobblestone slab`, etc.)
+            + All `stone` varieties (`stone slabs`, `stone stairs`, etc.)
+            + All `stone brick` varieties (`cracked stone brick`, `chiseled stone brick`, etc.)
+            + All `mossy` varieties (`mossy stone brick`, `mossy cobblestone slabs`, etc.)
+            + All `infested` blocks (e.g., `infested stone brick`, `infested cobbletstone`, etc)
+            + All `concrete` varietes (excluding powder)
 
 ### v1.5.2. December 30th, 2025
 

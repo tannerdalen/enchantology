@@ -1,5 +1,5 @@
 # Kill the player
-gamerule showDeathMessages false
+gamerule show_death_messages false
 tellraw @a {"translate":"%s succumbed to their impending doom","with":[{"selector":"@s"}]}
 kill @s
-gamerule showDeathMessages true
+gamerule show_death_messages true

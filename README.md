@@ -16,7 +16,7 @@ A data pack with 54 new enchantments spread across the world! Each enchantment c
 + Enchantment changes:
     + Quarrying
         + Enchantment now insta-mines significantly more blocks (previously only `deepslate`):
-             All `stone ore` varieties (`iron ore`, `coal ore`, etc.)
+            + All `stone ore` varieties (`iron ore`, `coal ore`, etc.)
             + All `cobblestone` varieties (`cobblestone`, `cobblestone slab`, etc.)
             + All `stone` varieties (`stone slabs`, `stone stairs`, etc.)
             + All `stone brick` varieties (`cracked stone brick`, `chiseled stone brick`, etc.)

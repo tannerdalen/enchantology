@@ -1,4 +1,4 @@
-# enchantology (v1.5.3)
+# enchantology (v1.5.4)
 
 A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 26.1.1.
 
@@ -7,6 +7,10 @@ A data pack with 54 new enchantments spread across the world! Each enchantment c
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.5.4. June 20th, 2026
+
++ Enchantology updated to Minecraft 26.2.
 
 ### v1.5.3. April 5th, 2026
 

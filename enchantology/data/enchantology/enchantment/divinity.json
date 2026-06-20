@@ -39,18 +39,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": [
-              "minecraft:blaze",
-              "minecraft:ghast",
-              "minecraft:hoglin",
-              "minecraft:magma_cube",
-              "minecraft:piglin",
-              "minecraft:piglin_brute",
-              "minecraft:strider",
-              "minecraft:wither_skeleton",
-              "minecraft:zoglin",
-              "minecraft:zombified_piglin"
-            ]
+            "entity_type": "#enchantology:nether" 
           }
         }
       }

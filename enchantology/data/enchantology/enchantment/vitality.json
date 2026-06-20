@@ -39,10 +39,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": [
-              "minecraft:wither",
-              "minecraft:wither_skeleton"
-            ]
+            "entity_type": "#enchantology:wither"
           }
         }
       }

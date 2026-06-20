@@ -39,15 +39,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": [
-              "minecraft:evoker",
-              "minecraft:illusioner",
-              "minecraft:pillager",
-              "minecraft:vindicator",
-              "minecraft:ravager",
-              "minecraft:vex",
-              "minecraft:witch"
-            ]
+            "entity_type": "#enchantology:illager"
           }
         }
       }

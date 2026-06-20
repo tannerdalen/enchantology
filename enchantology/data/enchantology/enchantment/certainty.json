@@ -33,7 +33,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                    "type": "#enchantology:ender"
+                    "minecraft:entity_type": "#enchantology:ender"
                       }
                     }
         }]

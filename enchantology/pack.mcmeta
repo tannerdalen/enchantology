@@ -1,9 +1,9 @@
 {
   "pack": {
     "description": "A Collection of New Enchantments for Minecraft, by Dalenology",
-    "pack_format": 101,
-    "min_format": [94,1],
-    "max_format": [101,1],
-    "supported_formats": [94,101]
+    "pack_format": 107,
+    "min_format": [107,1],
+    "max_format": [107,1],
+    "supported_formats": [107,107]
   }
 }

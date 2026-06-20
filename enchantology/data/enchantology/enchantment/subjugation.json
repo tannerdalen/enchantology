@@ -59,13 +59,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": [
-              "minecraft:villager",
-              "minecraft:wandering_trader",
-              "minecraft:snow_golem",
-              "minecraft:iron_golem",
-              "minecraft:sniffer"
-            ]
+            "entity_type": "#enchantology:subjugated"
           }
         }
       }

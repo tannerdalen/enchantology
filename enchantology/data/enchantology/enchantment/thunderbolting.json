@@ -45,7 +45,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type": "minecraft:arrow"
+                "entity_type": "minecraft:arrow"
               }
             },
             {
@@ -100,7 +100,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "direct_attacker",
               "predicate": {
-                "type": "minecraft:arrow"
+                "entity_type": "minecraft:arrow"
               }
             }
           ]

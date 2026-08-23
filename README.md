@@ -1,4 +1,4 @@
-# enchantology (v1.5.4)
+# enchantology (v1.5.5)
 
 A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 26.2.
 
@@ -7,6 +7,14 @@ A data pack with 54 new enchantments spread across the world! Each enchantment c
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.5.5. August 23rd, 2026
+
++ Enchantment Changes:
+    + Escalation
+        + Fixed bug where `max_level` could be `8`, now `max_level` set to `2` as intended.
+    + Windshield
+        + Increased base damage reduction from `1.0` (4% per level) to `2.0` (8% per level) to compensate for the fact Elytras do not have `armor` or `armor_toughness` values, which would otherwise provide additional damage reduction.
 
 ### v1.5.4. June 20th, 2026
 

@@ -6,15 +6,15 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 3.0,
-                  "min": 1.0
+                  "max": 3,
+                  "min": 1
                 },
-                "function": "minecraft:set_count"
+                "type": "minecraft:set_count"
               }
             ],
             "name": "minecraft:diamond",
@@ -22,15 +22,15 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 5.0,
-                  "min": 1.0
+                  "max": 5,
+                  "min": 1
                 },
-                "function": "minecraft:set_count"
+                "type": "minecraft:set_count"
               }
             ],
             "name": "minecraft:iron_ingot",
@@ -38,9 +38,9 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
-                "function": "minecraft:enchant_randomly",
+                "type": "minecraft:enchant_randomly",
                 "options": "enchantology:escalation"
               }
             ],
@@ -49,15 +49,15 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 7.0,
-                  "min": 2.0
+                  "max": 7,
+                  "min": 2
                 },
-                "function": "minecraft:set_count"
+                "type": "minecraft:set_count"
               }
             ],
             "name": "minecraft:gold_ingot",
@@ -65,15 +65,15 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 3.0,
-                  "min": 1.0
+                  "max": 3,
+                  "min": 1
                 },
-                "function": "minecraft:set_count"
+                "type": "minecraft:set_count"
               }
             ],
             "name": "minecraft:bamboo",
@@ -81,15 +81,15 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 3.0,
-                  "min": 1.0
+                  "max": 3,
+                  "min": 1
                 },
-                "function": "minecraft:set_count"
+                "type": "minecraft:set_count"
               }
             ],
             "name": "minecraft:emerald",
@@ -97,15 +97,15 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 6.0,
-                  "min": 4.0
+                  "max": 6,
+                  "min": 4
                 },
-                "function": "minecraft:set_count"
+                "type": "minecraft:set_count"
               }
             ],
             "name": "minecraft:bone",
@@ -113,15 +113,15 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 7.0,
-                  "min": 3.0
+                  "max": 7,
+                  "min": 3
                 },
-                "function": "minecraft:set_count"
+                "type": "minecraft:set_count"
               }
             ],
             "name": "minecraft:rotten_flesh",
@@ -129,15 +129,15 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
             {
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 5.0,
-                  "min": 1.0
+                  "max": 5,
+                  "min": 1
                 },
-                "function": "minecraft:set_count"
+                "type": "minecraft:set_count"
               }
             ],
             "name": "minecraft:leather",
@@ -166,10 +166,10 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
-                "function": "minecraft:enchant_with_levels",
-                "levels": 30.0,
+                "type": "minecraft:enchant_with_levels",
+                "levels": 30,
                 "options": "#minecraft:on_random_loot"
               }
             ],
@@ -178,8 +178,8 @@
         ],
         "rolls": {
           "type": "minecraft:uniform",
-          "max": 6.0,
-          "min": 2.0
+          "max": 6,
+          "min": 2
         }
       },
       {
@@ -191,17 +191,17 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
                 "add": false,
-                "count": 2.0,
-                "function": "minecraft:set_count"
+                "count": 2,
+                "type": "minecraft:set_count"
               }
             ],
             "name": "minecraft:wild_armor_trim_smithing_template"
           }
         ],
-        "rolls": 1.0
+        "rolls": 1
       }
     ],
     "random_sequence": "minecraft:chests/jungle_temple"

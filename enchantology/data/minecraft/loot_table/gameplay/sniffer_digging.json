@@ -17,16 +17,16 @@
         {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "functions": [
+            "modifier": [
                 {
-                    "function": "minecraft:enchant_randomly",
+                    "type": "minecraft:enchant_randomly",
                     "options": "enchantology:salubrity"
                 }
             ],
             "weight": 6
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:gameplay/sniffer_digging"

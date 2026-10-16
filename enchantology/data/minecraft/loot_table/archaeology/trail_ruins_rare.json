@@ -54,16 +54,16 @@
           },
           {
             "type": "minecraft:item",
-            "functions": [
+            "modifier": [
               {
-                "function": "minecraft:enchant_randomly",
+                "type": "minecraft:enchant_randomly",
                 "options": "enchantology:gnashing"
               }
             ],
             "name": "minecraft:book"
           }
         ],
-        "rolls": 1.0
+        "rolls": 1
       }
     ],
     "random_sequence": "minecraft:archaeology/trail_ruins_rare"

@@ -3,9 +3,9 @@
     "using_bow": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": [
+        "player": 
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "slots": {
@@ -21,7 +21,7 @@
                 }
               }
             }
-          ]
+          
       }
     }
   },

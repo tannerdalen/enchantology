@@ -3,9 +3,9 @@
       "enter_vehicle": {
         "trigger": "minecraft:started_riding",
         "conditions": {
-          "player": [
+          "player": 
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "slots": {
@@ -21,7 +21,7 @@
                 }
               }
             }
-          ]
+          
         }
       }
     },

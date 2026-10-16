@@ -6,15 +6,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:book",
@@ -22,15 +22,15 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
+                "max": 7,
+                "min": 2
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:paper",
@@ -46,10 +46,10 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
               "options": "#minecraft:on_random_loot"
             }
           ],
@@ -58,10 +58,10 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
               "options": ["enchantology:intuition"]
             }
           ],
@@ -71,8 +71,8 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 10.0,
-        "min": 2.0
+        "max": 10,
+        "min": 2
       }
     },
     {
@@ -83,7 +83,7 @@
           "name": "minecraft:eye_armor_trim_smithing_template"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:chests/stronghold_library"

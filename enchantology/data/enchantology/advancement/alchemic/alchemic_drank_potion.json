@@ -6,9 +6,8 @@
           "item": {
             "items": "minecraft:potion"
         },
-        "player": [
-            {
-              "condition": "minecraft:entity_properties",
+        "player": {
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "slots": {
@@ -24,7 +23,6 @@
                 }
               }
             }
-          ]
         }
       }
     },

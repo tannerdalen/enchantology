@@ -32,8 +32,8 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Explosive | Crossbow arrows explode on contact. | Crossbow | I | Thunderbolting | TRUE | Pillager Outpost |
 | Extension | Increased block interaction range. | Breeze Rod | III | | TRUE | Trial Chamber |
 | Frost Trotter | Creates frosted ice blocks when walking over water, and grants damage immunity from certain blocks such as campfires and magma blocks when stepped on. | Horse Armor | I | | TRUE | Snowy Village House |
-| Galloping | Increased base movement speed. | Horse Armor | II | | FALSE | Savanna Village House | 
-| Gnashing | Wolf attacks do increased damage. | Wolf Armor | V |  | TRUE | Trail Ruins |
+| Galloping | Increased base movement speed. | Horse Armor | II | | FALSE | Abandoned Camp (Secret Chest), Savanna Village House | 
+| Gnashing | Wolf attacks do increased damage. | Wolf Armor | V |  | FALSE | Abandoned Camp (Secret Chest), Trail Ruins |
 | Gravity | Arrows are weighted and send your airborne victim plummeting. | Bow, Crossbow | I | Discordant, Punch, Shrieking, Transposition | FALSE | |
 | Harvesting | Increased number of adjacent crops are broken around the origin. | Hoe | III |  | FALSE | |
 | Heartguard | Near-death experiences grant additional regeneration and absorption for a short duration. | Shield | I | | TRUE | Ravagers, Woodland Mansion | 

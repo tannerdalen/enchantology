@@ -36,7 +36,7 @@
           "create_fire": false
         },
         "requirements": {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
             "entity_type": "#minecraft:arrows"
@@ -51,7 +51,7 @@
           "value": 5.0
         },
         "requirements": {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "direct_attacker",
           "predicate": {
             "entity_type": "#minecraft:arrows"
@@ -85,7 +85,7 @@
           ]
         },
         "requirements": {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "direct_attacker",
           "predicate": {
             "entity_type": "#minecraft:arrows"

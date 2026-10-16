@@ -23,9 +23,9 @@
                     "function": "enchantology:heartguard/init_score"
                 },
                 "requirements": {
-                    "condition": "minecraft:inverted",
+                    "type": "minecraft:inverted",
                     "term": {
-                        "condition": "minecraft:entity_scores",
+                        "type": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
                             "heartguardCooldown": {
@@ -85,7 +85,7 @@
                     ]
                 },
                 "requirements": {
-                    "condition": "minecraft:entity_scores",
+                    "type": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
                         "heartguardCooldown": 0,

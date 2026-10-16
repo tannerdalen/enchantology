@@ -1,12 +1,25 @@
-# enchantology (v1.5.5)
+# enchantology (v1.5.6)
 
-A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 26.2.
+A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 26.3.
 
 ![](gallery/explosive_demo.gif)
 ![](gallery/cursed_leggings.png)
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.5.6. October 16th, 2026
+
++ Enchantology updated to Minecraft 26.3.
+
++ Enchantment Changes:
+    + Alchemic
+        + Increased porbability of not consuming a potion from `30%` to `50%`.
+    + Galloping
+        + Can now be found in Abandoned Camps.
+    + Gnashing
+        + Can now be found in Abandoned Camps.
+        + No longer considered a `treasure` enchantment.
 
 ### v1.5.5. August 23rd, 2026
 

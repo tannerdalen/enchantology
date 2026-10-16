@@ -2,3 +2,5 @@
 next_release.md
 enchantments.csv
 enchantology.png
+dev/
+.venv/

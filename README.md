@@ -14,7 +14,7 @@ A data pack with 54 new enchantments spread across the world! Each enchantment c
 
 + Enchantment Changes:
     + Alchemic
-        + Increased porbability of not consuming a potion from `30%` to `50%`.
+        + Increased probability of not consuming a potion from `30%` to `50%`.
     + Galloping
         + Can now be found in Abandoned Camps.
     + Gnashing

@@ -8,7 +8,7 @@ In general, enchantments of a certain "school" are compatible with each other an
 
 | Name | Summary | Primary Item(s) | Max Level | Incompatible With | Treasure? | Found In |
 |:-----|:-------:|:---------------:|:---------:|:-----------------:|:---------:|:--------:|
-| Alchemic | Potions have a 30% chance to not be consumed when drank. | Helmet | I | Audibility | TRUE | Trial Chamber, Witch |
+| Alchemic | Potions have a 50% chance to not be consumed when drank. | Helmet | I | Audibility | TRUE | Trial Chamber, Witch |
 | Audibility | You've honed your hearing. Hold sneak to reveal nearby mobs. | Helmet | I | Alchemic | TRUE | Ancient City |
 | Brutality | Apply bleed damage to victim. | Axes, Shears, Spears | I | | FALSE | |
 | Butchery | You carve items from injured mobs. You tear mutton from sheep, raw pork from pigs, and raw beef from cows. You rip flesh from zombies and bone meal from skeletons. You carve iron from iron golems and ender pearls from enderman. | Shears | I | | FALSE | |

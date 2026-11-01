@@ -1,0 +1,31 @@
+{   "replace":false,
+    "values":[
+        "minecraft:fire_resistance",
+        "minecraft:healing",
+        "minecraft:invisibility",
+        "minecraft:leaping",
+        "minecraft:luck",
+        "minecraft:night_vision",
+        "minecraft:regeneration",
+        "minecraft:slow_falling",
+        "minecraft:strength",
+        "minecraft:swiftness",
+        "minecraft:water_breathing",
+
+        "minecraft:long_fire_resistance",
+        "minecraft:long_invisibility",
+        "minecraft:long_leaping",
+        "minecraft:long_night_vision",
+        "minecraft:long_regeneration",
+        "minecraft:long_slow_falling",
+        "minecraft:long_strength",
+        "minecraft:long_swiftness",
+        "minecraft:long_water_breathing",
+        
+        "minecraft:strong_healing",
+        "minecraft:strong_leaping",
+        "minecraft:strong_regeneration",
+        "minecraft:strong_strength",
+        "minecraft:strong_swiftness"
+    ]
+}

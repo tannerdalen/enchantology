@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "open_brewing_stand": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+            "type": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:brewing_stand"
+                }
+            }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "enchantology:luck_of_the_brew/update_potions"
+  }
+}

@@ -1,0 +1,20 @@
+{   "replace":false,
+    "values":[
+        "minecraft:harming",
+        "minecraft:poison",
+        "minecraft:slowness",
+        "minecraft:weakness",
+        "minecraft:infested",
+        "minecraft:oozing",
+        "minecraft:weaving",
+        "minecraft:wind_charged",
+
+        "minecraft:long_poison",
+        "minecraft:long_slowness",
+        "minecraft:long_weakness",
+
+        "minecraft:strong_harming",
+        "minecraft:strong_poison",
+        "minecraft:strong_slowness"
+    ]
+}

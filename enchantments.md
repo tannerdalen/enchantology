@@ -19,6 +19,7 @@ In general, enchantments of a certain "school" are compatible with each other an
 | Curse of Contraction | You have been shrunk. Your size, speed, attack damage, jump height, and entity/block interaction range are reduced by 12.5% per armor piece with this curse equipped. | Armor | I | Curse of Uncertainty | FALSE | |
 | Curse of Dyspepsia | You have indigestion. Consuming anything (e.g., food, potions, milk bucket) will kill you. | Armor | I | | FALSE | |
 | Curse of Fatigue | You are fatigued. Your mining speed is greatly reduced. | Armor | I | | FALSE | | 
+| Curse of Gluttony | You are gluttonous. Food grants almost no saturation. | Armor | I | | FALSE | |
 | Curse of the Godfather | You have made enemies. Every time you enter a vehicle (minecart, horse, etc.), there is a small chance it is rigged to explode. | Armor | I | | FALSE | |
 | Curse of Impending Doom | You are fated to die. Reduces maximum health by half a heart every three seconds. You will die in 60 seconds, unless the curse is removed. | Armor | I | Salubrity | FALSE | |
 | Curse of Masochism | Quit hitting yourself. | Armor | I | | FALSE | |

@@ -160,7 +160,10 @@
             "modifier": [
               {
                 "type": "minecraft:enchant_randomly",
-                "options": "enchantology:vitality"
+                "options": [
+                  "enchantology:molten_touch",
+                  "enchantology:vitality"
+                ]
               }
             ],
             "name": "minecraft:book",

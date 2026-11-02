@@ -53,7 +53,7 @@ Cushioning | Arrows struck onto blocks creating a magical cushion, negating fall
 | Quarrying | Insta-mine deepslate if paired with Efficiency V and Haste II. | Netherite Pickaxe | I |  | TRUE | Abandoned Mineshaft |
 | Reaching | Increased entity interaction range. |  Axes, Swords, Trident, Shears | III | Sweeping Edge | FALSE | |
 | Salubrity | Increased maximum health (maximum 4 hearts). | Armor | II | Curse of Agony, Curse of Impending Doom, Protection | TRUE | Sniffer Digging |
-| Sand Strider | Increased movement on sand, red sand, and suspicious sand, but slowly drains durability in the process. | Boots | III | Depth Strider | TRUE | Desert Pyramid
+| Sand Strider | Increased movement on sand, red sand, and suspicious sand, but slowly drains durability in the process. | Boots | III | Air Strider, Depth Strider | TRUE | Desert Pyramid
 | Shattering | Reduce armor effectiveness of your victim. | Axes | III |  | TRUE | |
 | Shrieking | Your arrows become pure energy, releasing a instant and powerful sonic charge. | Bow | I | Cushioning, Discordant, Flame, Gravity, Intuition, Power, Punch | TRUE | Ancient City |
 | Steadfast | Protection for horse and wolf armor. | Horse Armor, Nautilus Armor, Wolf Armor | IV | | FALSE | |

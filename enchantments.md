@@ -8,9 +8,9 @@ In general, enchantments of a certain "school" are compatible with each other an
 
 | Name | Summary | Primary Item(s) | Max Level | Incompatible With | Treasure? | Found In |
 |:-----|:-------:|:---------------:|:---------:|:-----------------:|:---------:|:--------:|
+| Air Strider | Double jump mid-air. Maximum height depends on level and where you are looking (3, 4.5 and 6.5 blocks). | Boots | III | Depth Strider, Sand Strider | TRUE | Breeze, Trial Chamber | 
 | Alchemic | Potions have a 50% chance to not be consumed when drank. | Helmet | I | Audibility | TRUE | Trial Chamber, Witch |
 | Audibility | You've honed your hearing. Hold sneak to reveal nearby mobs. | Helmet | I | Alchemic | TRUE | Ancient City |
-| Air Strider | Double jump mid-air. Maximum height depends on level and where you are looking (3, 4.5 and 6.5 blocks). | Boots | III | Depth Strider, Sand Strider | TRUE | Breeze, Trial Chamber | 
 | Brutality | Apply bleed damage to victim. | Axes, Shears, Spears | I | | FALSE | |
 | Butchery | You carve items from injured mobs. You tear mutton from sheep, raw pork from pigs, and raw beef from cows. You rip flesh from zombies and bone meal from skeletons. You carve iron from iron golems and ender pearls from enderman. | Shears | I | | FALSE | |
 | Certainty | Increased damage to ender mobs. | Axes, Spears, Swords | V | Bane of Arthropods, Breach, Density, Divinity, Sharpness, Smite, Subjugation, Vigilance, Vitality | FALSE | |

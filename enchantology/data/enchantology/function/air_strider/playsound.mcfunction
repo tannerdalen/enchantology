@@ -1,0 +1,1 @@
+execute as @s run playsound minecraft:entity.wind_charge.wind_burst player @s ~ ~ ~ 1 1

@@ -158,6 +158,7 @@
               "type": "minecraft:enchant_randomly",
               "options": [
                 "enchantology:alchemic",
+                "enchantology:air_strider",
                 "enchantology:extension",
                 "enchantology:intuition",
                 "enchantology:magnetic"
@@ -165,7 +166,7 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 2
+          "weight": 6
         },
         {
           "type": "minecraft:item",

@@ -1,0 +1,419 @@
+{
+  "anvil_cost": 4,
+  "description": "Air Strider",
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantology:air_strider/initialize_score"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantology:air_strider/assign_direction"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantology:air_strider/reset_score"
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_on_ground": true
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantology:air_strider/reduce_score_by_one"
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_on_ground": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "airStriderJumpTimer": {
+                  "min": 1
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.0,
+                1.1,
+                0.0 
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.65,
+                "per_level_above_first": 0.2
+              }
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/playsound"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/particle"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/zero_score"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "airStriderJumpTimer": {
+                  "min": 1,
+                  "max": 36
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": true
+                  }
+                },
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "airStriderFacingStraightUp"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.0,
+                0.75,
+               -0.25 
+              ],
+              "direction": [
+                0.0,
+                1.0,
+                1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.65,
+                "per_level_above_first": 0.2
+              }
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/playsound"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/particle"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/zero_score"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "airStriderJumpTimer": {
+                  "min": 1,
+                  "max": 36
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": true
+                  }
+                },
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "airStriderFacingUp"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.0,
+                1.0,
+                0.0 
+              ],
+              "direction": [
+                0.0,
+                1.0,
+               -1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.65,
+                "per_level_above_first": 0.2
+              }
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/playsound"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/particle"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/zero_score"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "airStriderJumpTimer": {
+                  "min": 1,
+                  "max": 36
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": true
+                  }
+                },
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "airStriderFacingFront"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.0,
+                0.75,
+                0.0 
+              ],
+              "direction": [
+                0.0,
+                1.0,
+               -1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.65,
+                "per_level_above_first": 0.2
+              }
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/playsound"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/particle"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/zero_score"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "airStriderJumpTimer": {
+                  "min": 1,
+                  "max": 36
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": true
+                  }
+                },
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "airStriderFacingDown"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.0,
+               -1.0,
+                0.0 
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.65,
+                "per_level_above_first": 0.2
+              }
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/playsound"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/particle"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "enchantology:air_strider/zero_score"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "airStriderJumpTimer": {
+                  "min": 1,
+                  "max": 36
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": true
+                  }
+                },
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "airStriderFacingStraightDown"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "exclusive_set": "#enchantology:exclusive_set/striders",
+  "weight": 2
+}

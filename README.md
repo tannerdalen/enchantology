@@ -1,12 +1,45 @@
-# enchantology (v1.5.6)
+# enchantology (v1.6.0)
 
-A data pack with 54 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 26.3.
+A data pack with 56 new enchantments spread across the world! Each enchantment can be acquired either normally via the enchanting table, exploring structures like Pillager Outposts and Bastions, or by fishing and other looting mechanisms. See the [catalog of enchantments](enchantments.md) for details behind each effect. Latest build for Minecraft 26.3.
 
 ![](gallery/explosive_demo.gif)
 ![](gallery/cursed_leggings.png)
 ![](gallery/audibility_demo_reduced.png)
 
 ## Release Notes
+
+### v1.6.0. November 2nd, 2026
+
++ 4 new enchantments:
+    + **Air Strider** (Boots)
+        + Double jump mid-air. Don't forget your water bucket! 
+            + Your maximum height depends on the enchantment level and the direction you're looking (3, 4.5, and 6.5 blocks for levels I-III, respectively).
+            + `0.4` second delay after the initial jump before you can activate the double jump.
+        + Incompatible with `Depth Strider` and `Sand Strider`
+        + Found as rare Trial Chamber loot and dropped by Breezes (`2%` chance)
+    + **Molten Touch** (Pickaxe, Axe, Shovel, Hoe)
+        + Automatically smelt blocks upon mining - but coal and snow are burnt up (i.e., `coal ore` drops nothing)!
+            + `copper ore`, `iron ore`, and `gold ore` (and their deepslate variants) drop their respective ingots.
+            + `ancient debris` drops `ancient scrap`.
+            + `logs` and `wood` (and their stripped variants) drop `charcoal`. NOTE: Crimson and Warped wood (i.e., hyphae) is not affected.
+            + `sand` and `red sand` drops `glass`.
+            + `netherrack` drops `nether brick`.
+            + `clay` drops `terracotta`.
+            + `wet sponge` drops `sponge`.
+        + Incompatible with `Silk Touch` and `Fortune`.
+        + Found on random loot, enchanting table, fishing, in Nether Fortresses, and Bastions.
+    + **Curse of Gluttony**
+        + You are gluttonous. Food grants almost no saturation.
+            + More specifically, saturation is removed at a rate of `0.5` per tick until your saturation is at most `0.1` .
+    + **Curse of Dyspepsia**
+        + You have indigestion. Consuming anything (e.g., food, potions, milk) kills you.
++ Enchantment changes:
+    + Immolation
+        + Increased drop chance in ruined portal chests.
+    + Vitality
+        + Now a guaranteed drop chance in Bastion treasure chests.
+    + Alchemic, Extension, Intuition, Magnetic
+        + Increased drop chance as rare Trial Chamber loot
 
 ### v1.5.6. October 16th, 2026
 

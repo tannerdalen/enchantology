@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+      "enchantology:air_strider",
       "enchantology:sand_strider",
       "minecraft:depth_strider"
     ]

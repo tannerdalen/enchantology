@@ -361,11 +361,11 @@
             "modifier": [
               {
                 "type": "minecraft:enchant_randomly",
-                "options": "enchantology:vitality"
+                "options": "enchantology:molten_touch"
               }
             ],
             "name": "minecraft:book",
-            "weight": 2
+            "weight": 15
           },
         {
           "type": "minecraft:item",
@@ -409,6 +409,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_upgrade_smithing_template"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "modifier": [
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "enchantology:vitality"
+            }
+          ]
         }
       ],
       "rolls": 1

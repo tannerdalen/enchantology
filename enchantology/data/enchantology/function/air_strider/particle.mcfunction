@@ -1,0 +1,1 @@
+execute as @s run particle gust_emitter_small ~ ~0.5 ~

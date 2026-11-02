@@ -143,7 +143,10 @@
             "modifier": [
               {
                 "type": "minecraft:enchant_randomly",
-                "options": "enchantology:withering"
+                "options": [
+                  "enchantology:molten_touch",
+                  "enchantology:withering"
+                ]
               }
             ],
             "name": "minecraft:book",

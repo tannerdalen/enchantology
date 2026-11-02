@@ -7,6 +7,7 @@
     "minecraft:binding_curse",
     "enchantology:combustion_curse",
     "enchantology:contraction_curse",
+    "enchantology:dyspepsia_curse",
     "enchantology:fatigue_curse",
     "enchantology:godfather_curse",
     "enchantology:impending_doom_curse",
@@ -78,6 +79,7 @@
     "enchantology:harvesting",
     "minecraft:looting",
     "minecraft:silk_touch",
+    "enchantology:molten_touch",
     "minecraft:luck_of_the_sea",
 
     "minecraft:efficiency",

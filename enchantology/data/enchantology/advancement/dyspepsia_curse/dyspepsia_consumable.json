@@ -1,0 +1,29 @@
+{
+    "criteria": {
+      "dyspepsia_consumable": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.*": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "enchantology:dyspepsia_curse"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+        }
+      }
+    },
+    "rewards": {
+      "function": "enchantology:dyspepsia_curse/kill_entity"
+    }
+  }
